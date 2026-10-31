@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Робот-боксёр MG90S — концепт механики</title>
+<style>
+  :root { --ink:#1d232a; --muted:#5d6873; --line:#d9dee3; --bg:#f6f7f8; --card:#fff;
+          --printed:#cfd6dd; --printed-edge:#8d99a5; --servo:#24282d; --tpu:#ee7d22; --steel:#8a9099;
+          --elec:#2f8f5b; --bearing:#2f6fb5; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color:var(--ink); background:var(--bg); }
+  main { max-width:1100px; margin:0 auto; padding:28px 20px 48px; }
+  h1 { font-size:24px; margin:0 0 4px; }
+  h2 { font-size:17px; margin:0 0 10px; }
+  .sub { color:var(--muted); margin:0 0 22px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(330px,1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; }
+  svg { width:100%; height:auto; display:block; }
+  .legend { display:flex; flex-wrap:wrap; gap:10px 18px; margin:14px 0 0; font-size:13px; color:var(--muted); }
+  .legend span { display:inline-flex; align-items:center; gap:6px; }
+  .sw { width:14px; height:14px; border-radius:3px; display:inline-block; border:1px solid rgba(0,0,0,.25); }
+  table { border-collapse:collapse; width:100%; font-size:14px; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; }
+  td.n { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  img { width:100%; border-radius:8px; border:1px solid var(--line); background:#eef1f4; }
+  .note { font-size:13px; color:var(--muted); margin-top:8px; }
+  .tag { display:inline-block; font-size:12px; padding:1px 7px; border-radius:10px; background:#fff3e6; color:#9a4a00; border:1px solid #f3c79d; }
+  .tag.ok { background:#eaf6ef; color:#1d6b40; border-color:#b5dec5; }
+  svg text { font-family:system-ui, "Segoe UI", sans-serif; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Робот-боксёр на MG90S — к чему стремимся</h1>
+  <p class="sub">Концепт механики по ТЗ (ROBO-ONE Light): приземистое шасси, широкая стойка, 15 сервоприводов, каждый в узле разгрузки (подшипник 685ZZ + ось-ленивец 623ZZ). Схема не в масштабе 1:1, внешний вид пока не прорабатывали: <span class="tag">сначала механика</span></p>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Вид спереди — боевая стойка</h2>
+      <svg viewBox="0 0 300 312" role="img" aria-label="Вид спереди: стопы с грузом, ноги по 4 сервы, таз, торс, руки по 3 сервы, кулаки TPU">
+        <defs>
+          <pattern id="hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <rect width="4" height="4" fill="#b9bec5"/><line x1="0" y1="0" x2="0" y2="4" stroke="#6d737b" stroke-width="1.6"/>
+          </pattern>
+          <g id="srv">
+            <rect x="-9" y="-11" width="18" height="22" rx="2" fill="var(--servo)"/>
+            <circle cx="0" cy="-5" r="3.2" fill="none" stroke="var(--bearing)" stroke-width="1.4"/>
+          </g>
+        </defs>
+        <line x1="10" y1="291" x2="290" y2="291" stroke="#aab2ba" stroke-width="1"/>
+        <!-- feet with steel inserts -->
+        <g>
+          <rect x="78" y="278" width="52" height="12" rx="3" fill="var(--printed)" stroke="var(--printed-edge)"/>
+          <rect x="86" y="281" width="36" height="6" fill="url(#hatch)"/>
+          <rect x="170" y="278" width="52" height="12" rx="3" fill="var(--printed)" stroke="var(--printed-edge)"/>
+          <rect x="178" y="281" width="36" height="6" fill="url(#hatch)"/>
+        </g>
+        <!-- legs: frame + 4 servos each -->
+        <g fill="var(--printed)" stroke="var(--printed-edge)">
+          <rect x="94" y="200" width="20" height="78" rx="3"/>
+          <rect x="186" y="200" width="20" height="78" rx="3"/>
+          <rect x="96" y="130" width="22" height="72" rx="3"/>
+          <rect x="182" y="130" width="22" height="72" rx="3"/>
+        </g>
+        <g font-size="8" fill="#fff" text-anchor="middle">
+          <use href="#srv" x="104" y="264"/><text x="104" y="270">A</text>
+          <use href="#srv" x="104" y="203"/><text x="104" y="209">K</text>
+          <use href="#srv" x="107" y="146"/><text x="107" y="152">H2</text>
+          <use href="#srv" x="196" y="264"/><text x="196" y="270">A</text>
+          <use href="#srv" x="196" y="203"/><text x="196" y="209">K</text>
+          <use href="#srv" x="193" y="146"/><text x="193" y="152">H2</text>
+        </g>
+        <!-- pelvis with battery, hip roll servos -->
+        <rect x="102" y="100" width="96" height="30" rx="5" fill="var(--printed)" stroke="var(--printed-edge)"/>
+        <rect x="124" y="108" width="52" height="15" rx="2" fill="#3c4650"/>
+        <text x="150" y="119" font-size="8" fill="#fff" text-anchor="middle">АКБ 2S (низко)</text>
+        <g font-size="8" fill="#fff" text-anchor="middle">
+          <use href="#srv" x="112" y="117"/><text x="112" y="123">H1</text>
+          <use href="#srv" x="188" y="117"/><text x="188" y="123">H1</text>
+        </g>
+        <!-- waist yaw -->
+        <rect x="139" y="86" width="22" height="16" rx="2" fill="var(--servo)"/>
+        <text x="150" y="97" font-size="8" fill="#fff" text-anchor="middle">W</text>
+        <!-- chest -->
+        <rect x="106" y="30" width="88" height="58" rx="8" fill="var(--printed)" stroke="var(--printed-edge)"/>
+        <rect x="118" y="40" width="64" height="26" rx="2" fill="none" stroke="var(--elec)" stroke-width="1.5" stroke-dasharray="3 2"/>
+        <text x="150" y="51" font-size="7.5" fill="var(--elec)" text-anchor="middle">RTrobot 32 кан.</text>
+        <text x="150" y="61" font-size="7.5" fill="var(--elec)" text-anchor="middle">BEC 5 В / 8–10 А</text>
+        <rect x="143" y="72" width="14" height="9" rx="1.5" fill="var(--elec)"/>
+        <text x="150" y="79" font-size="6" fill="#fff" text-anchor="middle">IMU</text>
+        <!-- head bumper TPU -->
+        <rect x="136" y="12" width="28" height="18" rx="7" fill="var(--tpu)" opacity=".85"/>
+        <!-- shoulders S1 (raise) S2 (thrust) -->
+        <g fill="var(--printed)" stroke="var(--printed-edge)">
+          <rect x="70" y="36" width="20" height="62" rx="3"/>
+          <rect x="210" y="36" width="20" height="62" rx="3"/>
+        </g>
+        <g font-size="8" fill="#fff" text-anchor="middle">
+          <use href="#srv" x="80" y="50"/><text x="80" y="56">S2</text>
+          <use href="#srv" x="220" y="50"/><text x="220" y="56">S2</text>
+        </g>
+        <g stroke-width="14" stroke-linecap="round" fill="none">
+          <line x1="80" y1="96" x2="112" y2="30" stroke="var(--printed)"/>
+          <line x1="220" y1="96" x2="188" y2="30" stroke="var(--printed)"/>
+        </g>
+        <g font-size="8" fill="#fff" text-anchor="middle">
+          <use href="#srv" x="80" y="94"/><text x="80" y="100">E</text>
+          <use href="#srv" x="220" y="94"/><text x="220" y="100">E</text>
+        </g>
+        <rect x="98" y="8" width="28" height="28" rx="9" fill="var(--tpu)"/>
+        <rect x="174" y="8" width="28" height="28" rx="9" fill="var(--tpu)"/>
+        <text x="112" y="25" font-size="7" fill="#fff" text-anchor="middle">TPU</text>
+        <text x="188" y="25" font-size="7" fill="#fff" text-anchor="middle">TPU</text>
+        <g font-size="8" fill="#fff" text-anchor="middle">
+          <use href="#srv" x="100" y="62"/><text x="100" y="68">S1</text>
+          <use href="#srv" x="200" y="62"/><text x="200" y="68">S1</text>
+        </g>
+        <!-- forearms up to guard (drawn under the elbow servos) -->
+        <!-- dimension: stance -->
+        <g stroke="#7d8790" stroke-width=".8" fill="#5d6873" font-size="8">
+          <line x1="104" y1="297" x2="196" y2="297"/><line x1="104" y1="294" x2="104" y2="300"/><line x1="196" y1="294" x2="196" y2="300"/>
+          <text x="150" y="309" text-anchor="middle" stroke="none">широкая стойка ≈ 90–100 мм</text>
+        </g>
+        <g stroke="#7d8790" stroke-width=".8" fill="#5d6873" font-size="8">
+          <line x1="258" y1="12" x2="258" y2="290"/><line x1="255" y1="12" x2="261" y2="12"/><line x1="255" y1="290" x2="261" y2="290"/>
+          <text x="264" y="150" stroke="none" transform="rotate(90 264 150)" text-anchor="middle">рост ≈ 240–280 мм</text>
+        </g>
+      </svg>
+      <div class="legend">
+        <span><i class="sw" style="background:var(--servo)"></i>MG90S в узле разгрузки</span>
+        <span><i class="sw" style="background:#fff;border:2px solid var(--bearing)"></i>подшипник 685ZZ</span>
+        <span><i class="sw" style="background:var(--printed)"></i>печать ABS/PETG</span>
+        <span><i class="sw" style="background:var(--tpu)"></i>TPU (кулаки, бампер)</span>
+        <span><i class="sw" style="background:url(#hatch) #b9bec5"></i>стальной груз в стопе</span>
+        <span><i class="sw" style="background:var(--elec)"></i>электроника</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Вид сбоку — низкий центр тяжести</h2>
+      <svg viewBox="0 0 300 300" role="img" aria-label="Вид сбоку: колени согнуты, торс наклонён вперёд, рука в джебе">
+        <defs>
+          <pattern id="hatch2" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <rect width="4" height="4" fill="#b9bec5"/><line x1="0" y1="0" x2="0" y2="4" stroke="#6d737b" stroke-width="1.6"/>
+          </pattern>
+        </defs>
+        <line x1="10" y1="291" x2="290" y2="291" stroke="#aab2ba"/>
+        <rect x="100" y="278" width="80" height="12" rx="3" fill="var(--printed)" stroke="var(--printed-edge)"/>
+        <rect x="110" y="281" width="60" height="6" fill="url(#hatch2)"/>
+        <!-- bent leg -->
+        <g stroke="var(--printed)" stroke-width="18" stroke-linecap="round">
+          <line x1="140" y1="266" x2="160" y2="205"/>
+          <line x1="160" y1="205" x2="138" y2="140"/>
+        </g>
+        <g fill="var(--servo)">
+          <rect x="130" y="256" width="20" height="18" rx="2"/>
+          <rect x="150" y="196" width="20" height="18" rx="2"/>
+          <rect x="128" y="130" width="20" height="18" rx="2"/>
+        </g>
+        <g fill="none" stroke="var(--bearing)" stroke-width="1.4">
+          <circle cx="140" cy="265" r="3.2"/><circle cx="160" cy="205" r="3.2"/><circle cx="138" cy="139" r="3.2"/>
+        </g>
+        <!-- pelvis + torso leaning forward -->
+        <rect x="112" y="100" width="58" height="32" rx="6" fill="var(--printed)" stroke="var(--printed-edge)"/>
+        <rect x="120" y="108" width="40" height="15" rx="2" fill="#3c4650"/>
+        <g transform="rotate(10 140 60)">
+          <rect x="112" y="30" width="58" height="62" rx="8" fill="var(--printed)" stroke="var(--printed-edge)"/>
+          <rect x="135" y="12" width="26" height="18" rx="7" fill="var(--tpu)" opacity=".85"/>
+        </g>
+        <!-- arm: jab -->
+        <g stroke="var(--printed)" stroke-width="13" stroke-linecap="round">
+          <line x1="150" y1="50" x2="196" y2="62"/>
+          <line x1="196" y1="62" x2="240" y2="52"/>
+        </g>
+        <rect x="140" y="41" width="20" height="18" rx="2" fill="var(--servo)"/>
+        <rect x="186" y="53" width="20" height="18" rx="2" fill="var(--servo)"/>
+        <rect x="236" y="38" width="30" height="28" rx="9" fill="var(--tpu)"/>
+        <!-- CG marker -->
+        <g>
+          <circle cx="146" cy="160" r="7" fill="#fff" stroke="var(--ink)" stroke-width="1.2"/>
+          <path d="M146 153 A7 7 0 0 1 153 160 L146 160Z M146 167 A7 7 0 0 1 139 160 L146 160Z" fill="var(--ink)"/>
+          <line x1="146" y1="167" x2="146" y2="276" stroke="var(--ink)" stroke-dasharray="3 3" stroke-width=".8"/>
+          <text x="156" y="166" font-size="8" fill="var(--muted)">ЦТ над серединой стопы</text>
+        </g>
+        <text x="200" y="88" font-size="8" fill="var(--muted)">удар: инерция корпуса</text>
+        <text x="200" y="98" font-size="8" fill="var(--muted)">+ скручивание W</text>
+      </svg>
+      <p class="note">Колени согнуты: ЦТ ниже, сервоприводам ног проще держать позу. Удар идёт от разворота таза (W) и выброса плеча (S2), а не только от локтя.</p>
+    </section>
+  </div>
+
+  <div class="grid" style="margin-top:16px">
+    <section class="card">
+      <h2>Степени свободы (по ТЗ) — 15 × MG90S</h2>
+      <table>
+        <tr><th>Узел</th><th>Сервы</th><th>Назначение</th></tr>
+        <tr><td>Таз W</td><td class="n">1</td><td>скручивание корпуса: хуки и апперкоты</td></tr>
+        <tr><td>Плечо S1 / S2</td><td class="n">2 × 2</td><td>подъём руки / выброс вперёд (джеб)</td></tr>
+        <tr><td>Локоть E</td><td class="n">1 × 2</td><td>стойка, блок</td></tr>
+        <tr><td>Бедро H1 / H2</td><td class="n">2 × 2</td><td>качание в сторону / шаг</td></tr>
+        <tr><td>Колено K, голеностоп A</td><td class="n">2 × 2</td><td>присед, баланс вперёд-назад</td></tr>
+        <tr><td><b>Итого</b></td><td class="n"><b>15</b></td><td>из 32 каналов RTrobot свободно 17</td></tr>
+      </table>
+      <p class="note">В ТЗ на ноги 6–8 DoF; здесь 8. Если понадобится поперечный баланс на стопе, добавим голеностоп-крен (+2 сервы).</p>
+    </section>
+
+    <section class="card">
+      <h2>Что уже есть: узел сустава v0.2 <span class="tag ok">построен в SolidWorks</span></h2>
+      <img src="joint_v01.png" alt="Узел сустава v0.1: корпус с MG90S, мост с подшипником 685ZZ, U-рычаг">
+      <p class="note">Удар по рычагу уходит через цапфу Ø5 в 685ZZ и мост, а снизу через штифт 3×8 в 623ZZ, то есть в корпус. Вал сервы получает только момент через качалку. Гнездо 23,2 × 13,0 мм взято из вашей «Голени». Ход ±140°.</p>
+    </section>
+  </div>
+
+  <section class="card" style="margin-top:16px">
+    <h2>Оценка массы (первая прикидка)</h2>
+    <table>
+      <tr><th>Позиция</th><th>Расчёт</th><th>Масса</th></tr>
+      <tr><td>Сервоприводы MG90S</td><td class="n">15 × 13,4 г</td><td class="n">≈ 200 г</td></tr>
+      <tr><td>Узлы суставов (печать + подшипники)</td><td class="n">15 × ~14 г (v0.2: 16,9 см³, печать 30 %)</td><td class="n">≈ 210 г</td></tr>
+      <tr><td>Торс, таз, звенья, кулаки TPU</td><td class="n">оценка</td><td class="n">≈ 120 г</td></tr>
+      <tr><td>АКБ 2S, BEC, контроллер, IMU, провода</td><td class="n">оценка</td><td class="n">≈ 120 г</td></tr>
+      <tr><td>Стальные грузы в стопах</td><td class="n">2 × ~40 г</td><td class="n">≈ 80 г</td></tr>
+      <tr><td><b>Итого</b></td><td></td><td class="n"><b>≈ 0,73 кг</b></td></tr>
+    </table>
+    <p class="note">Узел v0.2 уже с рёбрами и выборками (−10 % объёма); основная экономия массы даёт печать с заполнением. Следующий шаг механики: звенья ног на базе узла и сверка с регламентом ROBO-ONE Light.</p>
+  </section>
+</main>
+</body>
+</html>

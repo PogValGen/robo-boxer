@@ -1,0 +1,59 @@
+{
+  "_about": "MG90S и штатная одноплечая качалка. Система координат = модель GrabCAD cad/purchased/MG90S_grabcad.SLDPRT: ось вала Y вверх, ушки вдоль X, ширина по Z. Все размеры мм. verify=true -> уточнить замером (docs/notes/mg90s_measure_checklist.md) и перестроить scripts/build_joint.py.",
+  "servo": {
+    "source": "GrabCAD 'Servo, Metal Gear, MG90S' (D:/Doks/RobotONE/servo-metal-gear-mg90s-1.snapshot.1), измерено в SW 2026-10-31",
+    "bottom_y": -11.9,
+    "tab_bottom_y": 5.15,
+    "tab_top_y": 7.65,
+    "tab_span": 32.25,
+    "hole_x": 13.75,
+    "hole_d": 3.0,
+    "body_w": 12.25,
+    "boss_d": 12.0,
+    "boss_top_y": 16.03,
+    "shaft_x": 5.5,
+    "shaft_d": 4.85,
+    "shaft_top_y": 19.9,
+    "spline_bottom_y": 16.15,
+    "verify": true
+  },
+  "pocket": {
+    "source": "подобрано пользователем: D:/Doks/RobotONE/Голень.stl, гнездо 23,21 x 13,0 (scripts/stl_pockets.py); ТЗ: +0,2 на сторону; зазор под дном 1,8 — плоский канал для кабеля",
+    "length": 23.2,
+    "width": 13.0,
+    "floor_gap": 1.8,
+    "verify": false
+  },
+  "horn": {
+    "source": "типовая одноплечая качалка (условные размеры); пользователь принял их 2026-10-31 («Эти размеры подходят»). Сверить при первой примерке",
+    "hub_d": 7.0,
+    "hub_bottom_y": 16.4,
+    "plate_t": 1.6,
+    "plate_top_y": 20.9,
+    "arm_w": 5.0,
+    "arm_r": 15.0,
+    "screw_r": [
+      10.0,
+      13.0
+    ],
+    "screw_hole_d": 1.0,
+    "center_screw_head_d": 4.6,
+    "center_screw_head_h": 1.6,
+    "verify": false
+  },
+  "cable": {
+    "source": "фото пользователя (Racerstar MG90S) 2026-10-31: кабель выходит снизу из торца СО СТОРОНЫ ВАЛА (+x). Трасса: паз в торцевой стенке +x -> плоский канал под сервой (зазор пола 1,8) -> туннель к торцу -x (сектор, куда рычаг не поворачивается)",
+    "end": "+x",
+    "w": 4.0,
+    "h": 4.0,
+    "groove_depth": 1.4,
+    "exit_h": 4.0,
+    "verify": false
+  },
+  "screws": {
+    "tab_pilot_d": 1.6,
+    "_tab": "саморез M2 из комплекта MG90S в пластик (пилот 1,6 — правка по пробе)",
+    "bridge": "M2 x 10 саморез, пилот 1,6 в стойке, зазорное по Hole Wizard ISO M2",
+    "verify": true
+  }
+}

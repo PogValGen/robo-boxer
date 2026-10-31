@@ -1,0 +1,17 @@
+# third-party models: not ours to publish (regenerated / kept locally)
+cad/purchased/
+cad/legacy_robotone/
+cad/viewer_stl/
+**/Bearing_*.SLDPRT
+**/Pin_ISO2338_*.SLDPRT
+# viewer data that embeds the GrabCAD MG90S mesh (public data = docs/viewer/robot_3d_data.js, stand-ins)
+docs/viewer/robot_3d.json
+docs/viewer/robot_3d.html
+docs/viewer/robot_lower_3d.*
+docs/viewer/robot_3d_inline.html
+docs/viewer/robot_3d_small.b64
+docs/viewer/*_frames/
+# SolidWorks / OS temp
+~$*
+*.tmp
+__pycache__/

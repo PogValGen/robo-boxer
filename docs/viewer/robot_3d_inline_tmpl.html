@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Робот-боксёр MG90S — 3D</title>
+<style>
+html,body{margin:0;height:100%;background:#eef1f5;font:14px system-ui,sans-serif;color:#1d232a;overflow:hidden}
+#bar{position:fixed;left:0;right:0;top:0;padding:8px 12px;background:rgba(255,255,255,.9);border-bottom:1px solid #d9dee3;z-index:2}
+#bar{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#bar b{font-size:15px}#bar small{color:#5d6873}canvas{position:fixed;left:0;top:0;display:block}
+#msg{position:fixed;top:45%;left:16px;right:16px;text-align:center;color:#5d6873;z-index:1}
+#btns{position:fixed;left:8px;right:8px;bottom:8px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;z-index:2}
+button{font:600 13px system-ui;padding:10px 4px;border-radius:8px;border:1px solid #c4ccd4;background:#fff;color:#1d232a}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head><body>
+<div id="bar"><b>Робот-боксёр MG90S</b> <small>· 15 сервоприводов · палец — вращать, два — масштаб</small></div>
+<div id="msg">Загрузка модели…</div>
+<div id="btns"><button id="b-iso">Вид</button><button id="b-front">Спереди</button><button id="b-side">Сбоку</button><button id="b-servo">Сервы</button></div>
+<script>
+async function unpack() {
+  const b64 = document.getElementById('model').textContent.trim();
+  const bin = atob(b64), u8 = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i);
+  const buf = await new Response(new Blob([u8]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
+  const hl = new DataView(buf).getUint32(0, true);
+  const head = JSON.parse(new TextDecoder().decode(new Uint8Array(buf, 4, hl)));
+  let o = 4 + hl;
+  const geoms = head.parts.map(p => {
+    const q = new Uint16Array(buf.slice(o, o + p.nv * 6)); o += p.nv * 6;
+    const idx = new Uint16Array(buf.slice(o, o + p.nf * 6)); o += p.nf * 6;
+    const pos = new Float32Array(p.nv * 3);
+    for (let i = 0; i < p.nv * 3; i++) pos[i] = p.lo[i % 3] + q[i] * p.sc[i % 3];
+    let g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(pos, 3)); g.setIndex(new THREE.BufferAttribute(idx, 1));
+    g = g.toNonIndexed(); g.computeVertexNormals(); return g;
+  });
+  if (o !== buf.byteLength) throw new Error('данные обрезаны: ' + o + ' из ' + buf.byteLength);
+  return {head, geoms};
+}
+async function start() {
+  const msg = document.getElementById('msg');
+  try {
+    if (!window.THREE || !THREE.OrbitControls) throw new Error('three.js не загрузился');
+    const {head, geoms} = await unpack();
+    const scene = new THREE.Scene(); scene.background = new THREE.Color(0xeef1f5);
+    const camera = new THREE.PerspectiveCamera(40, innerWidth / innerHeight, 1, 10000);
+    const renderer = new THREE.WebGLRenderer({antialias: true});
+    renderer.setPixelRatio(Math.min(devicePixelRatio, 2)); renderer.setSize(innerWidth, innerHeight);
+    document.body.appendChild(renderer.domElement);
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x8899aa, 0.85));
+    const sun = new THREE.DirectionalLight(0xffffff, 0.65); sun.position.set(300, 500, 400); scene.add(sun);
+    const mats = head.parts.map(p => new THREE.MeshStandardMaterial({color: p.color, metalness: /Bearing|Pin/.test(p.stem) ? 0.6 : 0.05, roughness: 0.6}));
+    const robot = new THREE.Group(); robot.rotation.z = -Math.PI / 2;   // model x points down -> screen up
+    scene.add(robot); const servos = [];
+    for (const it of head.inst) {
+      const mesh = new THREE.Mesh(geoms[it[0]], mats[it[0]]); mesh.matrixAutoUpdate = false;
+      // SolidWorks transform: p' = p * R + T (row vector), T in mm
+      mesh.matrix.set(it[1], it[4], it[7], it[10], it[2], it[5], it[8], it[11], it[3], it[6], it[9], it[12], 0, 0, 0, 1);
+      robot.add(mesh); if (head.parts[it[0]].stem.includes('MG90S_grabcad')) servos.push(mesh);
+    }
+    robot.updateMatrixWorld(true);
+    const sphere = new THREE.Box3().setFromObject(robot).getBoundingSphere(new THREE.Sphere());
+    const controls = new THREE.OrbitControls(camera, renderer.domElement); controls.enableDamping = true;
+    function view(dir) {
+      const vfov = camera.fov * Math.PI / 180, hfov = 2 * Math.atan(Math.tan(vfov / 2) * camera.aspect);
+      const d = sphere.radius / Math.sin(Math.min(vfov, hfov) / 2) * 1.02;
+      camera.position.copy(sphere.center).add(new THREE.Vector3(...dir).normalize().multiplyScalar(d));
+      controls.target.copy(sphere.center); controls.update();
+    }
+    const views = {iso: [0.55, 0.3, 0.78], front: [0, 0.05, 1], side: [1, 0.05, 0]}; let cur = views.iso;
+    view(cur);
+    document.getElementById('b-iso').onclick = () => view(cur = views.iso);
+    document.getElementById('b-front').onclick = () => view(cur = views.front);
+    document.getElementById('b-side').onclick = () => view(cur = views.side);
+    document.getElementById('b-servo').onclick = () => servos.forEach(s => s.visible = !s.visible);
+    addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); view(cur); });
+    msg.remove();
+    (function loop() { requestAnimationFrame(loop); controls.update(); renderer.render(scene, camera); })();
+  } catch (e) { msg.textContent = 'Ошибка: ' + e.message; console.error(e); }
+}
+document.addEventListener('DOMContentLoaded', start);
+</script>
+<script type="text/plain" id="model">__B64__</script>
+</body></html>

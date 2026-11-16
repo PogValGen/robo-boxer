@@ -1,0 +1,3 @@
+calib --v6 --tag _chk
+walk2 --v6 --tag _a --param gamma=0.85 --param ts=1.2
+dyn --v6 --tag _d --param tss=0.5 --param tds=0.15 --param S=25

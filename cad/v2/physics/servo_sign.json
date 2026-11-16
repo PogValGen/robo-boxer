@@ -1,0 +1,19 @@
+{
+ "armB_shoulder": -1,
+ "armB_shoulderroll": -1,
+ "armB_elbow": -1,
+ "legA_hiproll": -1,
+ "legA_hippitch": -1,
+ "legA_knee": -1,
+ "legA_ankle": -1,
+ "legA_ankleroll": -1,
+ "legB_hiproll": -1,
+ "legB_hippitch": -1,
+ "legB_knee": -1,
+ "legB_ankle": -1,
+ "legB_ankleroll": -1,
+ "torso": -1,
+ "armA_shoulder": -1,
+ "armA_shoulderroll": -1,
+ "armA_elbow": -1
+}

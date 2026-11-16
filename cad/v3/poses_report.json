@@ -1,0 +1,88 @@
+{
+ "crouch10_guard": {},
+ "swayL_guard": {},
+ "swayL_arms_down": {
+  "X3_Fist-2 x X3_Lid-8": 756.67,
+  "X3_Fist-2 x X3_Thigh-2": 3.34,
+  "X3_Cap-8 x X3_Fist-2": 150.4,
+  "X3_Cap-6 x X3_Forearm_R-1": 102.73,
+  "X3_Fist-2 x X3_Horn-8": 83.7,
+  "X3_Fist-2 x X3_Shank_R-1": 27.91,
+  "X3_Forearm_R-1 x X3_Thigh-2": 14.17,
+  "MG90S_grabcad-8 x X3_Fist-2": 2.21,
+  "X3_Forearm_R-1 x X3_Horn-6": 0.01
+ },
+ "swayR_guard": {},
+ "swayR_arms_down": {
+  "X3_Fist-1 x X3_Lid-7": 756.67,
+  "X3_Fist-1 x X3_Thigh-1": 3.34,
+  "X3_Cap-7 x X3_Fist-1": 150.4,
+  "X3_Cap-5 x X3_Forearm_L-1": 102.73,
+  "X3_Fist-1 x X3_Horn-7": 83.7,
+  "X3_Fist-1 x X3_Shank_L-1": 27.91,
+  "X3_Forearm_L-1 x X3_Thigh-1": 14.17,
+  "MG90S_grabcad-7 x X3_Fist-1": 2.21,
+  "X3_Forearm_L-1 x X3_Horn-5": 0.01
+ },
+ "swayL_liftR15_fwd30": {},
+ "swayL_liftR15_back30": {},
+ "swayR_liftL15_fwd30": {},
+ "split_A+30_B-30": {},
+ "split_A-30_B+30": {},
+ "sidestep_A+20": {},
+ "crouch30": {},
+ "crouch20": {},
+ "yaw_both+5": {
+  "X3_Foot_L-1 x X3_Foot_R-1": 139.96
+ },
+ "yaw_both-5": {
+  "X3_Foot_L-1 x X3_Foot_R-1": 52.12
+ },
+ "yaw_both+10": {
+  "X3_Foot_L-1 x X3_Foot_R-1": 595.7,
+  "X3_Pin-7 x X3_Pin-8": 63.03,
+  "X3_Thigh-1 x X3_Thigh-2": 44.66,
+  "X3_Pin-7 x X3_Thigh-2": 25.45,
+  "X3_Pin-8 x X3_Thigh-1": 25.45,
+  "X3_Shank_L-1 x X3_Shank_R-1": 0.21
+ },
+ "yaw_both-10": {
+  "X3_Foot_L-1 x X3_Foot_R-1": 319.02
+ },
+ "wide12_yaw_both+10": {},
+ "wide12_yaw_both-10": {},
+ "wide12_turn10": {},
+ "wide12_yaw_both+20": {
+  "X3_Foot_L-1 x X3_Foot_R-1": 20.26
+ },
+ "wide12_yaw_both-20": {
+  "X3_Block_L-1 x X3_Block_R-2": 3.07
+ },
+ "wide12_turn20": {},
+ "wide12_yaw_both+30": {
+  "X3_Foot_L-1 x X3_Foot_R-1": 461.67,
+  "X3_Thigh-1 x X3_Thigh-2": 72.05,
+  "X3_Shank_L-1 x X3_Shank_R-1": 40.98,
+  "X3_Pin-7 x X3_Pin-8": 20.5,
+  "X3_Pin-7 x X3_Thigh-2": 11.02,
+  "X3_Pin-8 x X3_Thigh-1": 11.02
+ },
+ "wide12_yaw_both-30": {
+  "X3_Block_L-1 x X3_Block_R-2": 193.77,
+  "X3_Foot_L-1 x X3_Foot_R-1": 92.3,
+  "X3_Yoke_L-1 x X3_Yoke_R-1": 0.81
+ },
+ "wide12_turn30": {},
+ "arms_down": {},
+ "jab_B": {},
+ "arms_fwd90": {},
+ "arms_up180": {},
+ "arms_back15": {
+  "X3_Shoulder_L-1 x X3_Torso-1": 0.83,
+  "X3_Shoulder_R-1 x X3_Torso-1": 0.83
+ },
+ "arms_side60": {},
+ "arms_fwd90_in20": {},
+ "guard_elbow90": {},
+ "hook_B": {}
+}

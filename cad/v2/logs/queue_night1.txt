@@ -1,0 +1,5 @@
+# Ночь 13.11, серия 1: первые версии всех четырёх задач
+getup_chest --v6 --lie chest --tag _v1
+getup_back --v6 --lie back --tag _v1
+punch_step --v6 --tag _v1
+kick2 --v6 --tag _v1

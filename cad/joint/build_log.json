@@ -3,205 +3,367 @@
   "tool": "open_model",
   "status": "success",
   "why": "assembly to view",
-  "s": 4.42
+  "s": 9.18
  },
  {
   "tool": "close_model",
   "status": "success",
   "why": "close assembly",
-  "s": 0.34
- },
- {
-  "tool": "open_model",
-  "status": "success",
-  "why": "open Fist_TPU",
-  "s": 3.12
- },
- {
-  "tool": "export_stl",
-  "status": "success",
-  "why": "STL Fist_TPU",
-  "s": 0.37
- },
- {
-  "tool": "close_model",
-  "status": "success",
-  "why": "close",
-  "s": 0.25
- },
- {
-  "tool": "open_model",
-  "status": "success",
-  "why": "open Pelvis",
-  "s": 4.0
- },
- {
-  "tool": "export_stl",
-  "status": "success",
-  "why": "STL Pelvis",
-  "s": 0.22
- },
- {
-  "tool": "close_model",
-  "status": "success",
-  "why": "close",
-  "s": 0.26
- },
- {
-  "tool": "open_model",
-  "status": "success",
-  "why": "open Shoulder_Yoke",
-  "s": 2.57
- },
- {
-  "tool": "export_stl",
-  "status": "success",
-  "why": "STL Shoulder_Yoke",
-  "s": 0.15
- },
- {
-  "tool": "close_model",
-  "status": "success",
-  "why": "close",
-  "s": 0.23
- },
- {
-  "tool": "open_model",
-  "status": "success",
-  "why": "open Torso_Mount",
-  "s": 2.4
- },
- {
-  "tool": "export_stl",
-  "status": "success",
-  "why": "STL Torso_Mount",
-  "s": 0.15
- },
- {
-  "tool": "close_model",
-  "status": "success",
-  "why": "close",
-  "s": 0.22
- },
- {
-  "tool": "open_model",
-  "status": "success",
-  "why": "open Bearing_623ZZ",
-  "s": 3.04
- },
- {
-  "tool": "export_stl",
-  "status": "success",
-  "why": "STL Bearing_623ZZ",
-  "s": 0.33
- },
- {
-  "tool": "close_model",
-  "status": "success",
-  "why": "close",
-  "s": 0.26
- },
- {
-  "tool": "open_model",
-  "status": "success",
-  "why": "open Bearing_685ZZ",
-  "s": 2.93
- },
- {
-  "tool": "export_stl",
-  "status": "success",
-  "why": "STL Bearing_685ZZ",
-  "s": 0.27
- },
- {
-  "tool": "close_model",
-  "status": "success",
-  "why": "close",
   "s": 0.31
  },
  {
   "tool": "open_model",
   "status": "success",
-  "why": "open Joint_Bridge",
-  "s": 2.65
+  "why": "open MG90S_grabcad",
+  "s": 2.26
  },
  {
   "tool": "export_stl",
   "status": "success",
-  "why": "STL Joint_Bridge",
+  "why": "STL MG90S_grabcad",
+  "s": 0.51
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.21
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Block_L",
+  "s": 2.68
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Block_L",
+  "s": 0.22
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.22
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Block_R",
+  "s": 2.3
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Block_R",
+  "s": 0.24
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.19
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Fist",
+  "s": 2.17
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Fist",
+  "s": 0.16
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.17
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Foot_L",
+  "s": 1.8
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Foot_L",
+  "s": 0.16
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.18
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Foot_R",
+  "s": 3.37
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Foot_R",
+  "s": 0.25
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.2
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Forearm_L",
+  "s": 1.99
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Forearm_L",
+  "s": 0.18
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.18
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Forearm_R",
+  "s": 1.79
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Forearm_R",
+  "s": 0.22
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.19
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Lid",
+  "s": 2.35
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Lid",
+  "s": 0.2
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.17
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Pin",
+  "s": 1.81
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Pin",
+  "s": 0.18
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.16
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Pod_L",
+  "s": 2.18
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Pod_L",
+  "s": 0.24
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.18
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Pod_R",
+  "s": 2.08
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Pod_R",
+  "s": 0.2
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.19
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Shank_L",
+  "s": 2.0
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Shank_L",
+  "s": 0.25
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.22
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Shank_R",
+  "s": 2.56
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Shank_R",
   "s": 0.21
  },
  {
   "tool": "close_model",
   "status": "success",
   "why": "close",
-  "s": 0.23
+  "s": 0.21
  },
  {
   "tool": "open_model",
   "status": "success",
-  "why": "open Joint_Housing",
-  "s": 2.15
+  "why": "open X3_Shoulder_L",
+  "s": 2.66
  },
  {
   "tool": "export_stl",
   "status": "success",
-  "why": "STL Joint_Housing",
-  "s": 0.15
- },
- {
-  "tool": "close_model",
-  "status": "success",
-  "why": "close",
+  "why": "STL X3_Shoulder_L",
   "s": 0.25
  },
  {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.21
+ },
+ {
   "tool": "open_model",
   "status": "success",
-  "why": "open Joint_Lever",
-  "s": 2.78
+  "why": "open X3_Shoulder_R",
+  "s": 2.04
  },
  {
   "tool": "export_stl",
   "status": "success",
-  "why": "STL Joint_Lever",
-  "s": 0.35
+  "why": "STL X3_Shoulder_R",
+  "s": 0.23
  },
  {
   "tool": "close_model",
   "status": "success",
   "why": "close",
-  "s": 0.23
+  "s": 0.21
  },
  {
   "tool": "open_model",
   "status": "success",
-  "why": "open MG90S_Horn",
-  "s": 2.52
+  "why": "open X3_Standoff",
+  "s": 3.29
  },
  {
   "tool": "export_stl",
   "status": "success",
-  "why": "STL MG90S_Horn",
-  "s": 0.16
+  "why": "STL X3_Standoff",
+  "s": 0.2
  },
  {
   "tool": "close_model",
   "status": "success",
   "why": "close",
-  "s": 0.23
+  "s": 0.17
  },
  {
   "tool": "open_model",
   "status": "success",
-  "why": "open Pin_ISO2338_3x12",
-  "s": 3.34
+  "why": "open X3_Thigh",
+  "s": 2.29
  },
  {
   "tool": "export_stl",
   "status": "success",
-  "why": "STL Pin_ISO2338_3x12",
-  "s": 0.16
+  "why": "STL X3_Thigh",
+  "s": 0.21
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.18
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Torso",
+  "s": 2.68
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Torso",
+  "s": 0.2
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.19
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_UpperArm_L",
+  "s": 2.92
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_UpperArm_L",
+  "s": 0.23
  },
  {
   "tool": "close_model",
@@ -212,37 +374,55 @@
  {
   "tool": "open_model",
   "status": "success",
-  "why": "open Leg_Foot",
-  "s": 2.16
+  "why": "open X3_UpperArm_R",
+  "s": 2.19
  },
  {
   "tool": "export_stl",
   "status": "success",
-  "why": "STL Leg_Foot",
-  "s": 0.16
+  "why": "STL X3_UpperArm_R",
+  "s": 0.21
  },
  {
   "tool": "close_model",
   "status": "success",
   "why": "close",
-  "s": 0.22
+  "s": 0.18
  },
  {
   "tool": "open_model",
   "status": "success",
-  "why": "open MG90S_grabcad",
-  "s": 3.09
+  "why": "open X3_Yoke_L",
+  "s": 1.95
  },
  {
   "tool": "export_stl",
   "status": "success",
-  "why": "STL MG90S_grabcad",
-  "s": 0.5
+  "why": "STL X3_Yoke_L",
+  "s": 0.24
  },
  {
   "tool": "close_model",
   "status": "success",
   "why": "close",
-  "s": 0.29
+  "s": 0.18
+ },
+ {
+  "tool": "open_model",
+  "status": "success",
+  "why": "open X3_Yoke_R",
+  "s": 2.06
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL X3_Yoke_R",
+  "s": 0.21
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.18
  }
 ]

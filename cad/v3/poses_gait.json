@@ -1,0 +1,1940 @@
+[
+ [
+  "walk2_t00.00",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": 0.0,
+   "legA_knee": 0.0,
+   "legA_ankle": 0.0,
+   "legA_ankleroll": 0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": 0.0,
+   "legB_knee": 0.0,
+   "legB_ankle": 0.0,
+   "legB_ankleroll": 0.0,
+   "armA_shoulder": 0.0,
+   "armB_shoulder": 0.0
+  }
+ ],
+ [
+  "walk2_t00.10",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": 0.0,
+   "legA_knee": 0.0,
+   "legA_ankle": 0.0,
+   "legA_ankleroll": 0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": 0.0,
+   "legB_knee": 0.0,
+   "legB_ankle": 0.0,
+   "legB_ankleroll": 0.0,
+   "armA_shoulder": 0.0,
+   "armB_shoulder": 0.0
+  }
+ ],
+ [
+  "walk2_t00.20",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": 0.0,
+   "legA_knee": 0.0,
+   "legA_ankle": 0.0,
+   "legA_ankleroll": 0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": 0.0,
+   "legB_knee": 0.0,
+   "legB_ankle": 0.0,
+   "legB_ankleroll": 0.0,
+   "armA_shoulder": 0.0,
+   "armB_shoulder": 0.0
+  }
+ ],
+ [
+  "walk2_t00.30",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -0.0,
+   "legA_knee": 0.0,
+   "legA_ankle": -0.0,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": -0.0,
+   "legB_knee": 0.0,
+   "legB_ankle": -0.0,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -0.0,
+   "armB_shoulder": -0.0
+  }
+ ],
+ [
+  "walk2_t00.40",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -0.95,
+   "legA_knee": 2.06,
+   "legA_ankle": -1.11,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": -0.95,
+   "legB_knee": 2.06,
+   "legB_ankle": -1.11,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -0.86,
+   "armB_shoulder": -0.86
+  }
+ ],
+ [
+  "walk2_t00.50",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -3.46,
+   "legA_knee": 7.5,
+   "legA_ankle": -4.04,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": -3.46,
+   "legB_knee": 7.5,
+   "legB_ankle": -4.04,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -3.12,
+   "armB_shoulder": -3.12
+  }
+ ],
+ [
+  "walk2_t00.60",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -7.0,
+   "legA_knee": 15.19,
+   "legA_ankle": -8.19,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": -7.0,
+   "legB_knee": 15.19,
+   "legB_ankle": -8.19,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -6.33,
+   "armB_shoulder": -6.33
+  }
+ ],
+ [
+  "walk2_t00.70",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -11.06,
+   "legA_knee": 24.0,
+   "legA_ankle": -12.94,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": -11.06,
+   "legB_knee": 24.0,
+   "legB_ankle": -12.94,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -10.0,
+   "armB_shoulder": -10.0
+  }
+ ],
+ [
+  "walk2_t00.80",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -15.12,
+   "legA_knee": 32.81,
+   "legA_ankle": -17.7,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": -15.12,
+   "legB_knee": 32.81,
+   "legB_ankle": -17.7,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -13.67,
+   "armB_shoulder": -13.67
+  }
+ ],
+ [
+  "walk2_t00.90",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -18.66,
+   "legA_knee": 40.5,
+   "legA_ankle": -21.84,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": -18.66,
+   "legB_knee": 40.5,
+   "legB_ankle": -21.84,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -16.88,
+   "armB_shoulder": -16.88
+  }
+ ],
+ [
+  "walk2_t01.00",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -21.17,
+   "legA_knee": 45.94,
+   "legA_ankle": -24.77,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": -21.17,
+   "legB_knee": 45.94,
+   "legB_ankle": -24.77,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -19.14,
+   "armB_shoulder": -19.14
+  }
+ ],
+ [
+  "walk2_t01.10",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t01.20",
+  {
+   "legA_hiproll": -0.2,
+   "legA_hippitch": -22.06,
+   "legA_knee": 47.89,
+   "legA_ankle": -25.83,
+   "legA_ankleroll": 0.2,
+   "legB_hiproll": 0.2,
+   "legB_hippitch": -22.06,
+   "legB_knee": 47.89,
+   "legB_ankle": -25.83,
+   "legB_ankleroll": -0.2,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t01.30",
+  {
+   "legA_hiproll": -0.74,
+   "legA_hippitch": -21.91,
+   "legA_knee": 47.58,
+   "legA_ankle": -25.67,
+   "legA_ankleroll": 0.74,
+   "legB_hiproll": 0.74,
+   "legB_hippitch": -21.91,
+   "legB_knee": 47.58,
+   "legB_ankle": -25.67,
+   "legB_ankleroll": -0.74,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t01.40",
+  {
+   "legA_hiproll": -1.55,
+   "legA_hippitch": -21.67,
+   "legA_knee": 47.1,
+   "legA_ankle": -25.43,
+   "legA_ankleroll": 1.55,
+   "legB_hiproll": 1.55,
+   "legB_hippitch": -21.67,
+   "legB_knee": 47.1,
+   "legB_ankle": -25.43,
+   "legB_ankleroll": -1.55,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t01.50",
+  {
+   "legA_hiproll": -2.58,
+   "legA_hippitch": -21.38,
+   "legA_knee": 46.51,
+   "legA_ankle": -25.13,
+   "legA_ankleroll": 2.58,
+   "legB_hiproll": 2.58,
+   "legB_hippitch": -21.38,
+   "legB_knee": 46.51,
+   "legB_ankle": -25.13,
+   "legB_ankleroll": -2.58,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t01.60",
+  {
+   "legA_hiproll": -3.74,
+   "legA_hippitch": -21.05,
+   "legA_knee": 45.84,
+   "legA_ankle": -24.79,
+   "legA_ankleroll": 3.74,
+   "legB_hiproll": 3.74,
+   "legB_hippitch": -21.05,
+   "legB_knee": 45.84,
+   "legB_ankle": -24.79,
+   "legB_ankleroll": -3.74,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t01.70",
+  {
+   "legA_hiproll": -4.97,
+   "legA_hippitch": -20.7,
+   "legA_knee": 45.13,
+   "legA_ankle": -24.43,
+   "legA_ankleroll": 4.97,
+   "legB_hiproll": 4.97,
+   "legB_hippitch": -20.7,
+   "legB_knee": 45.13,
+   "legB_ankle": -24.43,
+   "legB_ankleroll": -4.97,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t01.80",
+  {
+   "legA_hiproll": -6.2,
+   "legA_hippitch": -20.35,
+   "legA_knee": 44.41,
+   "legA_ankle": -24.07,
+   "legA_ankleroll": 6.2,
+   "legB_hiproll": 6.2,
+   "legB_hippitch": -20.35,
+   "legB_knee": 44.41,
+   "legB_ankle": -24.07,
+   "legB_ankleroll": -6.2,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t01.90",
+  {
+   "legA_hiproll": -7.36,
+   "legA_hippitch": -20.01,
+   "legA_knee": 43.74,
+   "legA_ankle": -23.72,
+   "legA_ankleroll": 7.36,
+   "legB_hiproll": 7.36,
+   "legB_hippitch": -20.01,
+   "legB_knee": 43.74,
+   "legB_ankle": -23.72,
+   "legB_ankleroll": -7.36,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t02.00",
+  {
+   "legA_hiproll": -8.39,
+   "legA_hippitch": -19.72,
+   "legA_knee": 43.15,
+   "legA_ankle": -23.42,
+   "legA_ankleroll": 8.39,
+   "legB_hiproll": 8.39,
+   "legB_hippitch": -19.72,
+   "legB_knee": 43.15,
+   "legB_ankle": -23.42,
+   "legB_ankleroll": -8.39,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t02.10",
+  {
+   "legA_hiproll": -9.2,
+   "legA_hippitch": -19.49,
+   "legA_knee": 42.67,
+   "legA_ankle": -23.18,
+   "legA_ankleroll": 9.2,
+   "legB_hiproll": 9.2,
+   "legB_hippitch": -19.49,
+   "legB_knee": 42.67,
+   "legB_ankle": -23.18,
+   "legB_ankleroll": -9.2,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t02.20",
+  {
+   "legA_hiproll": -9.74,
+   "legA_hippitch": -19.33,
+   "legA_knee": 42.36,
+   "legA_ankle": -23.03,
+   "legA_ankleroll": 9.74,
+   "legB_hiproll": 9.74,
+   "legB_hippitch": -19.33,
+   "legB_knee": 42.36,
+   "legB_ankle": -23.03,
+   "legB_ankleroll": -9.74,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t02.30",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": -9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t02.40",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.26,
+   "legB_hippitch": -23.84,
+   "legB_knee": 51.53,
+   "legB_ankle": -27.7,
+   "legB_ankleroll": -10.26,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t02.50",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.76,
+   "legB_hippitch": -30.88,
+   "legB_knee": 65.89,
+   "legB_ankle": -35.0,
+   "legB_ankleroll": -10.76,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t02.60",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.85,
+   "legB_hippitch": -32.67,
+   "legB_knee": 68.48,
+   "legB_ankle": -35.81,
+   "legB_ankleroll": -10.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t02.70",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.85,
+   "legB_hippitch": -35.53,
+   "legB_knee": 67.52,
+   "legB_ankle": -31.99,
+   "legB_ankleroll": -10.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t02.80",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.85,
+   "legB_hippitch": -39.66,
+   "legB_knee": 66.14,
+   "legB_ankle": -26.48,
+   "legB_ankleroll": -10.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t02.90",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.85,
+   "legB_hippitch": -43.36,
+   "legB_knee": 64.89,
+   "legB_ankle": -21.53,
+   "legB_ankleroll": -10.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t03.00",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.85,
+   "legB_hippitch": -44.97,
+   "legB_knee": 64.35,
+   "legB_ankle": -19.39,
+   "legB_ankleroll": -10.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t03.10",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.53,
+   "legB_hippitch": -39.48,
+   "legB_knee": 54.39,
+   "legB_ankle": -14.91,
+   "legB_ankleroll": -10.53,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t03.20",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.04,
+   "legB_hippitch": -31.0,
+   "legB_knee": 38.98,
+   "legB_ankle": -7.98,
+   "legB_ankleroll": -10.04,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t03.30",
+  {
+   "legA_hiproll": -9.84,
+   "legA_hippitch": -19.18,
+   "legA_knee": 42.19,
+   "legA_ankle": -23.0,
+   "legA_ankleroll": 9.84,
+   "legB_hiproll": 9.84,
+   "legB_hippitch": -29.33,
+   "legB_knee": 36.07,
+   "legB_ankle": -6.74,
+   "legB_ankleroll": -9.84,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t03.40",
+  {
+   "legA_hiproll": -9.09,
+   "legA_hippitch": -18.47,
+   "legA_knee": 41.75,
+   "legA_ankle": -23.28,
+   "legA_ankleroll": 9.09,
+   "legB_hiproll": 9.09,
+   "legB_hippitch": -28.95,
+   "legB_knee": 36.3,
+   "legB_ankle": -7.36,
+   "legB_ankleroll": -9.09,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t03.50",
+  {
+   "legA_hiproll": -7.71,
+   "legA_hippitch": -17.17,
+   "legA_knee": 40.94,
+   "legA_ankle": -23.77,
+   "legA_ankleroll": 7.71,
+   "legB_hiproll": 7.71,
+   "legB_hippitch": -28.25,
+   "legB_knee": 36.73,
+   "legB_ankle": -8.48,
+   "legB_ankleroll": -7.71,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t03.60",
+  {
+   "legA_hiproll": -5.85,
+   "legA_hippitch": -15.4,
+   "legA_knee": 39.85,
+   "legA_ankle": -24.45,
+   "legA_ankleroll": 5.85,
+   "legB_hiproll": 5.85,
+   "legB_hippitch": -27.3,
+   "legB_knee": 37.31,
+   "legB_ankle": -10.01,
+   "legB_ankleroll": -5.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t03.70",
+  {
+   "legA_hiproll": -3.65,
+   "legA_hippitch": -13.31,
+   "legA_knee": 38.56,
+   "legA_ankle": -25.24,
+   "legA_ankleroll": 3.65,
+   "legB_hiproll": 3.65,
+   "legB_hippitch": -26.18,
+   "legB_knee": 38.0,
+   "legB_ankle": -11.82,
+   "legB_ankleroll": -3.65,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t03.80",
+  {
+   "legA_hiproll": -1.24,
+   "legA_hippitch": -11.03,
+   "legA_knee": 37.14,
+   "legA_ankle": -26.11,
+   "legA_ankleroll": 1.24,
+   "legB_hiproll": 1.24,
+   "legB_hippitch": -24.96,
+   "legB_knee": 38.75,
+   "legB_ankle": -13.79,
+   "legB_ankleroll": -1.24,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t03.90",
+  {
+   "legA_hiproll": 1.24,
+   "legA_hippitch": -8.68,
+   "legA_knee": 35.69,
+   "legA_ankle": -27.01,
+   "legA_ankleroll": -1.24,
+   "legB_hiproll": -1.24,
+   "legB_hippitch": -23.7,
+   "legB_knee": 39.53,
+   "legB_ankle": -15.83,
+   "legB_ankleroll": 1.24,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t04.00",
+  {
+   "legA_hiproll": 3.65,
+   "legA_hippitch": -6.39,
+   "legA_knee": 34.27,
+   "legA_ankle": -27.88,
+   "legA_ankleroll": -3.65,
+   "legB_hiproll": -3.65,
+   "legB_hippitch": -22.47,
+   "legB_knee": 40.28,
+   "legB_ankle": -17.81,
+   "legB_ankleroll": 3.65,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t04.10",
+  {
+   "legA_hiproll": 5.85,
+   "legA_hippitch": -4.3,
+   "legA_knee": 32.98,
+   "legA_ankle": -28.68,
+   "legA_ankleroll": -5.85,
+   "legB_hiproll": -5.85,
+   "legB_hippitch": -21.36,
+   "legB_knee": 40.97,
+   "legB_ankle": -19.61,
+   "legB_ankleroll": 5.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t04.20",
+  {
+   "legA_hiproll": 7.71,
+   "legA_hippitch": -2.54,
+   "legA_knee": 31.89,
+   "legA_ankle": -29.35,
+   "legA_ankleroll": -7.71,
+   "legB_hiproll": -7.71,
+   "legB_hippitch": -20.41,
+   "legB_knee": 41.55,
+   "legB_ankle": -21.14,
+   "legB_ankleroll": 7.71,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t04.30",
+  {
+   "legA_hiproll": 9.09,
+   "legA_hippitch": -1.24,
+   "legA_knee": 31.08,
+   "legA_ankle": -29.84,
+   "legA_ankleroll": -9.09,
+   "legB_hiproll": -9.09,
+   "legB_hippitch": -19.71,
+   "legB_knee": 41.98,
+   "legB_ankle": -22.27,
+   "legB_ankleroll": 9.09,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t04.40",
+  {
+   "legA_hiproll": 9.84,
+   "legA_hippitch": -0.52,
+   "legA_knee": 30.64,
+   "legA_ankle": -30.12,
+   "legA_ankleroll": -9.84,
+   "legB_hiproll": -9.84,
+   "legB_hippitch": -19.33,
+   "legB_knee": 42.21,
+   "legB_ankle": -22.88,
+   "legB_ankleroll": 9.84,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t04.50",
+  {
+   "legA_hiproll": 10.04,
+   "legA_hippitch": -1.82,
+   "legA_knee": 33.74,
+   "legA_ankle": -31.92,
+   "legA_ankleroll": -10.04,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t04.60",
+  {
+   "legA_hiproll": 10.53,
+   "legA_hippitch": -9.1,
+   "legA_knee": 50.28,
+   "legA_ankle": -41.19,
+   "legA_ankleroll": -10.53,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t04.70",
+  {
+   "legA_hiproll": 10.85,
+   "legA_hippitch": -13.81,
+   "legA_knee": 60.98,
+   "legA_ankle": -47.18,
+   "legA_ankleroll": -10.85,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t04.80",
+  {
+   "legA_hiproll": 10.85,
+   "legA_hippitch": -17.74,
+   "legA_knee": 61.41,
+   "legA_ankle": -43.67,
+   "legA_ankleroll": -10.85,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t04.90",
+  {
+   "legA_hiproll": 10.85,
+   "legA_hippitch": -26.8,
+   "legA_knee": 62.39,
+   "legA_ankle": -35.59,
+   "legA_ankleroll": -10.85,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t05.00",
+  {
+   "legA_hiproll": 10.85,
+   "legA_hippitch": -36.89,
+   "legA_knee": 63.48,
+   "legA_ankle": -26.59,
+   "legA_ankleroll": -10.85,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t05.10",
+  {
+   "legA_hiproll": 10.85,
+   "legA_hippitch": -43.9,
+   "legA_knee": 64.24,
+   "legA_ankle": -20.34,
+   "legA_ankleroll": -10.85,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t05.20",
+  {
+   "legA_hiproll": 10.76,
+   "legA_hippitch": -43.34,
+   "legA_knee": 61.41,
+   "legA_ankle": -18.06,
+   "legA_ankleroll": -10.76,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t05.30",
+  {
+   "legA_hiproll": 10.26,
+   "legA_hippitch": -34.87,
+   "legA_knee": 46.0,
+   "legA_ankle": -11.14,
+   "legA_ankleroll": -10.26,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t05.40",
+  {
+   "legA_hiproll": 9.94,
+   "legA_hippitch": -29.38,
+   "legA_knee": 36.04,
+   "legA_ankle": -6.66,
+   "legA_ankleroll": -9.94,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t05.50",
+  {
+   "legA_hiproll": 9.55,
+   "legA_hippitch": -29.18,
+   "legA_knee": 36.16,
+   "legA_ankle": -6.98,
+   "legA_ankleroll": -9.55,
+   "legB_hiproll": -9.55,
+   "legB_hippitch": -18.91,
+   "legB_knee": 42.02,
+   "legB_ankle": -23.11,
+   "legB_ankleroll": 9.55,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t05.60",
+  {
+   "legA_hiproll": 8.47,
+   "legA_hippitch": -28.63,
+   "legA_knee": 36.5,
+   "legA_ankle": -7.86,
+   "legA_ankleroll": -8.47,
+   "legB_hiproll": -8.47,
+   "legB_hippitch": -17.88,
+   "legB_knee": 41.38,
+   "legB_ankle": -23.5,
+   "legB_ankleroll": 8.47,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t05.70",
+  {
+   "legA_hiproll": 6.83,
+   "legA_hippitch": -27.8,
+   "legA_knee": 37.01,
+   "legA_ankle": -9.2,
+   "legA_ankleroll": -6.83,
+   "legB_hiproll": -6.83,
+   "legB_hippitch": -16.33,
+   "legB_knee": 40.42,
+   "legB_ankle": -24.09,
+   "legB_ankleroll": 6.83,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t05.80",
+  {
+   "legA_hiproll": 4.79,
+   "legA_hippitch": -26.76,
+   "legA_knee": 37.65,
+   "legA_ankle": -10.88,
+   "legA_ankleroll": -4.79,
+   "legB_hiproll": -4.79,
+   "legB_hippitch": -14.39,
+   "legB_knee": 39.22,
+   "legB_ankle": -24.83,
+   "legB_ankleroll": 4.79,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t05.90",
+  {
+   "legA_hiproll": 2.46,
+   "legA_hippitch": -25.58,
+   "legA_knee": 38.37,
+   "legA_ankle": -12.79,
+   "legA_ankleroll": -2.46,
+   "legB_hiproll": -2.46,
+   "legB_hippitch": -12.19,
+   "legB_knee": 37.86,
+   "legB_ankle": -25.67,
+   "legB_ankleroll": 2.46,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t06.00",
+  {
+   "legA_hiproll": -0.0,
+   "legA_hippitch": -24.33,
+   "legA_knee": 39.14,
+   "legA_ankle": -14.81,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": 0.0,
+   "legB_hippitch": -9.85,
+   "legB_knee": 36.41,
+   "legB_ankle": -26.56,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t06.10",
+  {
+   "legA_hiproll": -2.46,
+   "legA_hippitch": -23.08,
+   "legA_knee": 39.91,
+   "legA_ankle": -16.83,
+   "legA_ankleroll": 2.46,
+   "legB_hiproll": 2.46,
+   "legB_hippitch": -7.52,
+   "legB_knee": 34.97,
+   "legB_ankle": -27.45,
+   "legB_ankleroll": -2.46,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t06.20",
+  {
+   "legA_hiproll": -4.79,
+   "legA_hippitch": -21.9,
+   "legA_knee": 40.64,
+   "legA_ankle": -18.74,
+   "legA_ankleroll": 4.79,
+   "legB_hiproll": 4.79,
+   "legB_hippitch": -5.32,
+   "legB_knee": 33.61,
+   "legB_ankle": -28.29,
+   "legB_ankleroll": -4.79,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t06.30",
+  {
+   "legA_hiproll": -6.83,
+   "legA_hippitch": -20.86,
+   "legA_knee": 41.28,
+   "legA_ankle": -20.42,
+   "legA_ankleroll": 6.83,
+   "legB_hiproll": 6.83,
+   "legB_hippitch": -3.37,
+   "legB_knee": 32.4,
+   "legB_ankle": -29.03,
+   "legB_ankleroll": -6.83,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t06.40",
+  {
+   "legA_hiproll": -8.47,
+   "legA_hippitch": -20.03,
+   "legA_knee": 41.79,
+   "legA_ankle": -21.76,
+   "legA_ankleroll": 8.47,
+   "legB_hiproll": 8.47,
+   "legB_hippitch": -1.82,
+   "legB_knee": 31.45,
+   "legB_ankle": -29.62,
+   "legB_ankleroll": -8.47,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t06.50",
+  {
+   "legA_hiproll": -9.55,
+   "legA_hippitch": -19.48,
+   "legA_knee": 42.12,
+   "legA_ankle": -22.65,
+   "legA_ankleroll": 9.55,
+   "legB_hiproll": 9.55,
+   "legB_hippitch": -0.8,
+   "legB_knee": 30.81,
+   "legB_ankle": -30.01,
+   "legB_ankleroll": -9.55,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t06.60",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 9.94,
+   "legB_hippitch": -0.43,
+   "legB_knee": 30.58,
+   "legB_ankle": -30.15,
+   "legB_ankleroll": -9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t06.70",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.26,
+   "legB_hippitch": -5.14,
+   "legB_knee": 41.28,
+   "legB_ankle": -36.15,
+   "legB_ankleroll": -10.26,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t06.80",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.76,
+   "legB_hippitch": -12.41,
+   "legB_knee": 57.82,
+   "legB_ankle": -45.41,
+   "legB_ankleroll": -10.76,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t06.90",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.85,
+   "legB_hippitch": -14.87,
+   "legB_knee": 61.1,
+   "legB_ankle": -46.23,
+   "legB_ankleroll": -10.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t07.00",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.85,
+   "legB_hippitch": -21.88,
+   "legB_knee": 61.86,
+   "legB_ankle": -39.97,
+   "legB_ankleroll": -10.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t07.10",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.85,
+   "legB_hippitch": -31.97,
+   "legB_knee": 62.95,
+   "legB_ankle": -30.98,
+   "legB_ankleroll": -10.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t07.20",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.85,
+   "legB_hippitch": -41.03,
+   "legB_knee": 63.93,
+   "legB_ankle": -22.89,
+   "legB_ankleroll": -10.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t07.30",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.85,
+   "legB_hippitch": -44.97,
+   "legB_knee": 64.35,
+   "legB_ankle": -19.39,
+   "legB_ankleroll": -10.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t07.40",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.53,
+   "legB_hippitch": -39.48,
+   "legB_knee": 54.39,
+   "legB_ankle": -14.91,
+   "legB_ankleroll": -10.53,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t07.50",
+  {
+   "legA_hiproll": -9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": 9.94,
+   "legB_hiproll": 10.04,
+   "legB_hippitch": -31.0,
+   "legB_knee": 38.98,
+   "legB_ankle": -7.98,
+   "legB_ankleroll": -10.04,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t07.60",
+  {
+   "legA_hiproll": -9.84,
+   "legA_hippitch": -19.18,
+   "legA_knee": 42.19,
+   "legA_ankle": -23.0,
+   "legA_ankleroll": 9.84,
+   "legB_hiproll": 9.84,
+   "legB_hippitch": -29.33,
+   "legB_knee": 36.07,
+   "legB_ankle": -6.74,
+   "legB_ankleroll": -9.84,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t07.70",
+  {
+   "legA_hiproll": -9.09,
+   "legA_hippitch": -18.47,
+   "legA_knee": 41.74,
+   "legA_ankle": -23.28,
+   "legA_ankleroll": 9.09,
+   "legB_hiproll": 9.09,
+   "legB_hippitch": -28.95,
+   "legB_knee": 36.3,
+   "legB_ankle": -7.36,
+   "legB_ankleroll": -9.09,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t07.80",
+  {
+   "legA_hiproll": -7.71,
+   "legA_hippitch": -17.16,
+   "legA_knee": 40.94,
+   "legA_ankle": -23.77,
+   "legA_ankleroll": 7.71,
+   "legB_hiproll": 7.71,
+   "legB_hippitch": -28.25,
+   "legB_knee": 36.73,
+   "legB_ankle": -8.48,
+   "legB_ankleroll": -7.71,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t07.90",
+  {
+   "legA_hiproll": -5.85,
+   "legA_hippitch": -15.4,
+   "legA_knee": 39.85,
+   "legA_ankle": -24.44,
+   "legA_ankleroll": 5.85,
+   "legB_hiproll": 5.85,
+   "legB_hippitch": -27.3,
+   "legB_knee": 37.31,
+   "legB_ankle": -10.01,
+   "legB_ankleroll": -5.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t08.00",
+  {
+   "legA_hiproll": -3.65,
+   "legA_hippitch": -13.31,
+   "legA_knee": 38.56,
+   "legA_ankle": -25.24,
+   "legA_ankleroll": 3.65,
+   "legB_hiproll": 3.65,
+   "legB_hippitch": -26.18,
+   "legB_knee": 38.0,
+   "legB_ankle": -11.82,
+   "legB_ankleroll": -3.65,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t08.10",
+  {
+   "legA_hiproll": -1.24,
+   "legA_hippitch": -11.03,
+   "legA_knee": 37.14,
+   "legA_ankle": -26.11,
+   "legA_ankleroll": 1.24,
+   "legB_hiproll": 1.24,
+   "legB_hippitch": -24.96,
+   "legB_knee": 38.75,
+   "legB_ankle": -13.79,
+   "legB_ankleroll": -1.24,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t08.20",
+  {
+   "legA_hiproll": 1.24,
+   "legA_hippitch": -8.68,
+   "legA_knee": 35.69,
+   "legA_ankle": -27.01,
+   "legA_ankleroll": -1.24,
+   "legB_hiproll": -1.24,
+   "legB_hippitch": -23.7,
+   "legB_knee": 39.53,
+   "legB_ankle": -15.83,
+   "legB_ankleroll": 1.24,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t08.30",
+  {
+   "legA_hiproll": 3.65,
+   "legA_hippitch": -6.39,
+   "legA_knee": 34.27,
+   "legA_ankle": -27.88,
+   "legA_ankleroll": -3.65,
+   "legB_hiproll": -3.65,
+   "legB_hippitch": -22.47,
+   "legB_knee": 40.28,
+   "legB_ankle": -17.81,
+   "legB_ankleroll": 3.65,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t08.40",
+  {
+   "legA_hiproll": 5.85,
+   "legA_hippitch": -4.3,
+   "legA_knee": 32.98,
+   "legA_ankle": -28.68,
+   "legA_ankleroll": -5.85,
+   "legB_hiproll": -5.85,
+   "legB_hippitch": -21.36,
+   "legB_knee": 40.97,
+   "legB_ankle": -19.61,
+   "legB_ankleroll": 5.85,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t08.50",
+  {
+   "legA_hiproll": 7.71,
+   "legA_hippitch": -2.54,
+   "legA_knee": 31.89,
+   "legA_ankle": -29.35,
+   "legA_ankleroll": -7.71,
+   "legB_hiproll": -7.71,
+   "legB_hippitch": -20.41,
+   "legB_knee": 41.55,
+   "legB_ankle": -21.14,
+   "legB_ankleroll": 7.71,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t08.60",
+  {
+   "legA_hiproll": 9.09,
+   "legA_hippitch": -1.24,
+   "legA_knee": 31.08,
+   "legA_ankle": -29.84,
+   "legA_ankleroll": -9.09,
+   "legB_hiproll": -9.09,
+   "legB_hippitch": -19.71,
+   "legB_knee": 41.98,
+   "legB_ankle": -22.27,
+   "legB_ankleroll": 9.09,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t08.70",
+  {
+   "legA_hiproll": 9.84,
+   "legA_hippitch": -0.52,
+   "legA_knee": 30.64,
+   "legA_ankle": -30.12,
+   "legA_ankleroll": -9.84,
+   "legB_hiproll": -9.84,
+   "legB_hippitch": -19.33,
+   "legB_knee": 42.21,
+   "legB_ankle": -22.88,
+   "legB_ankleroll": 9.84,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t08.80",
+  {
+   "legA_hiproll": 10.04,
+   "legA_hippitch": -1.82,
+   "legA_knee": 33.74,
+   "legA_ankle": -31.92,
+   "legA_ankleroll": -10.04,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t08.90",
+  {
+   "legA_hiproll": 10.53,
+   "legA_hippitch": -9.1,
+   "legA_knee": 50.28,
+   "legA_ankle": -41.19,
+   "legA_ankleroll": -10.53,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t09.00",
+  {
+   "legA_hiproll": 10.85,
+   "legA_hippitch": -13.81,
+   "legA_knee": 60.98,
+   "legA_ankle": -47.18,
+   "legA_ankleroll": -10.85,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t09.10",
+  {
+   "legA_hiproll": 10.85,
+   "legA_hippitch": -16.13,
+   "legA_knee": 61.95,
+   "legA_ankle": -45.82,
+   "legA_ankleroll": -10.85,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t09.20",
+  {
+   "legA_hiproll": 10.85,
+   "legA_hippitch": -21.49,
+   "legA_knee": 64.17,
+   "legA_ankle": -42.68,
+   "legA_ankleroll": -10.85,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t09.30",
+  {
+   "legA_hiproll": 10.85,
+   "legA_hippitch": -27.45,
+   "legA_knee": 66.65,
+   "legA_ankle": -39.19,
+   "legA_ankleroll": -10.85,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t09.40",
+  {
+   "legA_hiproll": 10.85,
+   "legA_hippitch": -31.6,
+   "legA_knee": 68.37,
+   "legA_ankle": -36.77,
+   "legA_ankleroll": -10.85,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t09.50",
+  {
+   "legA_hiproll": 10.76,
+   "legA_hippitch": -30.88,
+   "legA_knee": 65.89,
+   "legA_ankle": -35.0,
+   "legA_ankleroll": -10.76,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t09.60",
+  {
+   "legA_hiproll": 10.26,
+   "legA_hippitch": -23.84,
+   "legA_knee": 51.53,
+   "legA_ankle": -27.7,
+   "legA_ankleroll": -10.26,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t09.70",
+  {
+   "legA_hiproll": 9.94,
+   "legA_hippitch": -19.28,
+   "legA_knee": 42.25,
+   "legA_ankle": -22.97,
+   "legA_ankleroll": -9.94,
+   "legB_hiproll": -9.94,
+   "legB_hippitch": -19.28,
+   "legB_knee": 42.25,
+   "legB_ankle": -22.97,
+   "legB_ankleroll": 9.94,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t09.80",
+  {
+   "legA_hiproll": 9.2,
+   "legA_hippitch": -19.49,
+   "legA_knee": 42.67,
+   "legA_ankle": -23.18,
+   "legA_ankleroll": -9.2,
+   "legB_hiproll": -9.2,
+   "legB_hippitch": -19.49,
+   "legB_knee": 42.67,
+   "legB_ankle": -23.18,
+   "legB_ankleroll": 9.2,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t09.90",
+  {
+   "legA_hiproll": 7.36,
+   "legA_hippitch": -20.01,
+   "legA_knee": 43.74,
+   "legA_ankle": -23.72,
+   "legA_ankleroll": -7.36,
+   "legB_hiproll": -7.36,
+   "legB_hippitch": -20.01,
+   "legB_knee": 43.74,
+   "legB_ankle": -23.72,
+   "legB_ankleroll": 7.36,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t10.00",
+  {
+   "legA_hiproll": 4.97,
+   "legA_hippitch": -20.7,
+   "legA_knee": 45.13,
+   "legA_ankle": -24.43,
+   "legA_ankleroll": -4.97,
+   "legB_hiproll": -4.97,
+   "legB_hippitch": -20.7,
+   "legB_knee": 45.12,
+   "legB_ankle": -24.43,
+   "legB_ankleroll": 4.97,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t10.10",
+  {
+   "legA_hiproll": 2.58,
+   "legA_hippitch": -21.38,
+   "legA_knee": 46.51,
+   "legA_ankle": -25.13,
+   "legA_ankleroll": -2.58,
+   "legB_hiproll": -2.58,
+   "legB_hippitch": -21.38,
+   "legB_knee": 46.51,
+   "legB_ankle": -25.13,
+   "legB_ankleroll": 2.58,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t10.20",
+  {
+   "legA_hiproll": 0.74,
+   "legA_hippitch": -21.91,
+   "legA_knee": 47.58,
+   "legA_ankle": -25.67,
+   "legA_ankleroll": -0.74,
+   "legB_hiproll": -0.74,
+   "legB_hippitch": -21.91,
+   "legB_knee": 47.58,
+   "legB_ankle": -25.67,
+   "legB_ankleroll": 0.74,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t10.30",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t10.40",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t10.50",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t10.60",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t10.70",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t10.80",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t10.90",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t11.00",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t11.10",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t11.20",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ],
+ [
+  "walk2_t11.30",
+  {
+   "legA_hiproll": 0.0,
+   "legA_hippitch": -22.12,
+   "legA_knee": 48.0,
+   "legA_ankle": -25.89,
+   "legA_ankleroll": -0.0,
+   "legB_hiproll": -0.0,
+   "legB_hippitch": -22.12,
+   "legB_knee": 48.0,
+   "legB_ankle": -25.89,
+   "legB_ankleroll": -0.0,
+   "armA_shoulder": -20.0,
+   "armB_shoulder": -20.0
+  }
+ ]
+]

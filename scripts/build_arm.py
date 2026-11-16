@@ -16,20 +16,22 @@ import asyncio
 import sys
 import time
 
+import robo_version as RV  # ROBO_V=2 -> joint v2, output cad/v2
 import build_joint as bj
 import build_leg as bl
 import build_pelvis as bp
 from build_joint import HX0, LINK_DX, LINK_YZ, cut, mc, rect, t
 
-OUT = bj.PROJ / "cad" / "arm"
+OUT = RV.CAD / "arm"
 OUT.mkdir(parents=True, exist_ok=True)
-FIST, YOKE = OUT / "Fist_TPU.SLDPRT", bj.PROJ / "cad" / "body" / "Shoulder_Yoke.SLDPRT"
-ARM, ROBOT = OUT / "Arm.SLDASM", bj.PROJ / "cad" / "body" / "Robot.SLDASM"
+FIST, YOKE = OUT / "Fist_TPU.SLDPRT", RV.CAD / "body" / "Shoulder_Yoke.SLDPRT"
+ARM, ROBOT = OUT / "Arm.SLDASM", RV.CAD / "body" / "Robot.SLDASM"
 WEB_X = bl.WEB_X                                  # 33.5
 SHELF_TOP = bp.SH_X1 - bp.SH_T                    # -151.1 (robot x)
 YK_T = 6.0
 YK_X0 = SHELF_TOP - YK_T                          # yoke top
-ARM_Y = 116.0                                     # shoulder axis lateral: arm (y +-28.3..31.3) clears the legs (|y| <= 81.3) by 6 mm
+# shoulder axis lateral: the arm unit (y Y_MIN..Y_MAX) clears the legs (|y| <= LEG_Y + max|y|) by 6 mm
+ARM_Y = 116.0 if not RV.V2 else float(round(bp.LEG_Y + 2 * max(-RV.Y_MIN, RV.Y_MAX) + 6.0))
 S1_X0 = SHELF_TOP - HX0                           # S1 unit origin: its -x face under the yoke at SHELF_TOP
 FIST_L, FIST_H = 30.0, 16.0
 
@@ -52,7 +54,8 @@ async def turned_joint(name_hint: str, x0: float, base_comp: str) -> str:
             made.append(rr["mate"]["name"])
         b = [round(v * 1000, 1) for v in bj.top_component(comp).GetBox(False, False)]
         print(f"    {comp} ({al}) box {b}")
-        if abs(b[0] - (x0 + HX0)) < 0.3 and abs(b[3] - (x0 + WEB_X)) < 0.3 and abs(b[1] + 9) < 0.3 and abs(b[4] - 9) < 0.3:
+        if (abs(b[0] - (x0 + RV.X_MIN)) < 0.3 and abs(b[3] - (x0 + WEB_X)) < 0.3
+                and abs(b[1] + RV.HZ) < 0.3 and abs(b[4] - RV.HZ) < 0.3):
             return comp
         for m in made:
             doc.Extension.SelectByID2(m, "MATE", 0, 0, 0, False, 0, None, 0)
@@ -72,23 +75,34 @@ async def part_fist() -> None:
         mc.typed(bj.model(), "IModelDoc2").EditUndo2(1)
         await t("create_extrusion", {"sketch_name": sk, "depth": FIST_L, "reverse_direction": True}, why="fist (rev)", n=60)
     await t("add_fillet", {"radius": 6.0, "edge_names": []}, why="round all edges R6 (no hard corners)", n=60)
-    await cut(p0, [d for y, z in LINK_YZ for d in bj.circle(z, y, 0.8)], 6.0, 4 * 3.1416 * 0.64 * 6 * 0.9,
-              "4 x pilot D1.6 x6 for M2 screws from inside the elbow lever")
+    if RV.V2:
+        await RV.xboss(WEB_X, [d for y, z in LINK_YZ for d in bj.circle(z, y, RV.LINK_D / 2)], RV.PEG_L, -1,
+                       "4 press pegs D3 into the elbow lever web (no screws)")
+    else:
+        await cut(p0, [d for y, z in LINK_YZ for d in bj.circle(z, y, 0.8)], 6.0, 4 * 3.1416 * 0.64 * 6 * 0.9,
+                  "4 x pilot D1.6 x6 for M2 screws from inside the elbow lever")
     await bj.finish(FIST, "ABS", "fist_iso.png")  # print in TPU; no TPU in the SW material DB
 
 
 async def part_yoke() -> None:
-    bj.STL = bj.PROJ / "cad" / "body" / "stl"
+    bj.STL = RV.CAD / "body" / "stl"
+    bj.STL.mkdir(parents=True, exist_ok=True)
     await t("create_part", {"name": "Shoulder_Yoke"}, why="shoulder yoke: on the torso shelf, carries both S1 housings")
     await bp.boss("Right", YK_X0, rect(-26.0, -(ARM_Y + 12.0), 26.0, ARM_Y + 12.0), YK_T, 0, "yoke 184 x 52 x 6")
     pts = [[YK_X0, s * ARM_Y + dy, dz] for s in (1, -1) for dy, dz in LINK_YZ]
     pts += [[YK_X0, y, z] for y, z in bp.SHELF_YZ]
-    await t("create_hole_wizard", {"kind": "clearance", "size": "M2", "direction": [1, 0, 0], "points": pts},
-            why="Hole Wizard 12 x M2: 8 to the S1 housings, 4 to the shelf (all from above)", n=120)
+    if RV.V2:   # S1 housing pegs from below + shelf pegs: 12 through holes D3 (no screws)
+        # one cut per hole: a 12-circle sketch reproducibly refused its 2nd circle at ARM_Y = 88 (2026-11-07)
+        pl = await bp.plane("Right", YK_X0, "P_yk_holes")
+        for _, y, z in pts:
+            await cut(pl, bj.circle(z, y, RV.LINK_D / 2), YK_T, 3.1416 * 2.25 * YK_T * 0.9, f"hole D3 at y{y:+g} z{z:+g}")
+    else:
+        await t("create_hole_wizard", {"kind": "clearance", "size": "M2", "direction": [1, 0, 0], "points": pts},
+                why="Hole Wizard 12 x M2: 8 to the S1 housings, 4 to the shelf (all from above)", n=120)
     for s in (1, -1):  # lightening windows between shelf and shoulders
         await cut(await bp.plane("Right", YK_X0, f"P_win{s:+d}".replace("+", "p").replace("-", "m")),
-                  rect(-18.0, min(s * 40.0, s * 100.0), 18.0, max(s * 40.0, s * 100.0)), YK_T, 0.6 * 60 * 36 * YK_T,
-                  f"window y{s * 52:+g}")
+                  rect(-18.0, min(s * 35.0, s * (ARM_Y - 16.0)), 18.0, max(s * 35.0, s * (ARM_Y - 16.0))), YK_T,
+                  0.6 * (ARM_Y - 51.0) * 36 * YK_T, f"window y{s * 52:+g}")
     await bj.finish(YOKE, "ABS", "yoke_iso.png")
 
 

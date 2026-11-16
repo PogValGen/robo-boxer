@@ -22,7 +22,7 @@ import sys
 import time
 from pathlib import Path
 
-MCP_ROOT = Path(r"D:\AI prodject\grok\projects\solidworks-mcp\SolidworksMCP-python")
+MCP_ROOT = Path(r"D:\AI prodject\solidworks-mcp\SolidworksMCP-python")
 sys.path.insert(0, str(MCP_ROOT / "scripts"))
 sys.path.insert(0, str(MCP_ROOT / "src"))
 from audit_harness import _unwrap, open_docs, sw_session  # noqa: E402

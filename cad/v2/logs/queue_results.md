@@ -1,0 +1,14 @@
+| time | label | status | fwd | side | tilt | fell | upright | rise | worst_p95 | worst_p99 | solver_s | params |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 11-13 21:29 | getup_chest_6v_v1 | ok | -14.2 | -5.2 | 109.5 | True | -0.22 | 14.2 | armA_shoulder 85% | 85% | 653 | {} |
+| 11-13 21:47 | getup_back_6v_v1 | FAIL TimeoutExpired: Command '['D:\\AI prodject\\solidworks-mcp\\SolidworksMCP-python\\.venv\\Scripts\\python.exe', '-c', 'import audit_harne |  |  |  |  |  |  |  |  |  |  |
+| 11-13 21:57 | punch_step_6v_v1 | FAIL TimeoutExpired: Command '['D:\\AI prodject\\solidworks-mcp\\SolidworksMCP-python\\.venv\\Scripts\\python.exe', 'D:\\AI prodject\\robo-bo |  |  |  |  |  |  |  |  |  |  |
+| 11-13 22:02 | kick2_6v_v1 | FAIL TimeoutExpired: Command '['D:\\AI prodject\\solidworks-mcp\\SolidworksMCP-python\\.venv\\Scripts\\python.exe', 'D:\\AI prodject\\robo-bo |  |  |  |  |  |  |  |  |  |  |
+| 11-13 22:31 | punch_step_6v_v1 | ok | 36.6 | -2.0 | 1.3 | False | 1.0 | -8.1 | legB_hiproll 95% | 138% | 98 | {} |
+| 11-13 22:34 | kick2_6v_v1 | FAIL RuntimeError: SW does not answer 20 min after start |  |  |  |  |  |  |  |  |  |  |
+| 11-13 22:54 | getup_back_6v_v1 | FAIL RuntimeError: SW does not answer 20 min after start |  |  |  |  |  |  |  |  |  |  |
+| 11-13 23:16 | kick2_6v_v1 | ok | 400.5 | 621.3 | 174.5 | True | 0.95 | -33928.3 | legA_hiproll 86% | 120% | 58 | {} |
+| 11-13 23:19 | getup_chest2_6v_v2 | ok | -14.2 | 1.5 | 125.4 | True | -0.22 | 14.2 | armA_shoulder 85% | 85% | 759 | {} |
+| 11-13 23:34 | getup_back_6v_v1 | ok | -7.9 | 14.5 | 78.9 | True | 0.09 | -7.9 | armA_shoulder 45% | 68% | 630 | {} |
+| 11-13 23:47 | kick2_6v_v2 | ok | 155.4 | -13.1 | 167.2 | True | 0.93 | -26905.3 | legA_hiproll 86% | 128% | 68 | {} |
+| 11-13 23:53 | kick2_6v_v3 | ok | 49.4 | 13.2 | 179.8 | True | -0.99 | -211.3 | legA_knee 91% | 266% | 81 | {} |

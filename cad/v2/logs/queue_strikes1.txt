@@ -1,0 +1,3 @@
+# 13.11 вечер: удары (v1)
+punch_step --v6 --tag _v1
+kick2 --v6 --tag _v1

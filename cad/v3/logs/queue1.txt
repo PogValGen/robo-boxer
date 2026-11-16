@@ -1,0 +1,2 @@
+calib --v6
+stand --v6

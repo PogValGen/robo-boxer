@@ -1,0 +1,9 @@
+{
+ "armB_shoulder": true,
+ "armB_shoulderroll": true,
+ "armB_elbow": true,
+ "armA_shoulder": true,
+ "armA_shoulderroll": true,
+ "armA_elbow": true,
+ "torso": true
+}

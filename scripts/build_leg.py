@@ -15,15 +15,22 @@ import asyncio
 import sys
 import time
 
+import robo_version as RV  # noqa: F401  (ROBO_V=2 -> joint v2, output cad/v2)
 import build_joint as bj
 from build_joint import AX, LINK_DX, LINK_YZ, WEB_R0, WEB_T, cut, mc, rect, t
 
-LEG = bj.PROJ / "cad" / "leg"
+LEG = RV.CAD / "leg"
+# v2 (2026-11-07): leg of 5 servos — ankle roll AR (unit turned 90 deg like H1) between the ankle pitch
+# and the foot: without it the foot rolls onto its edge whenever the weight is shifted (servo_sim walk)
+ANKLE_ROLL = RV.V2
+FOOT_X = (3 if ANKLE_ROLL else 2) * LINK_DX
 LEG.mkdir(parents=True, exist_ok=True)
 FOOT = LEG / "Leg_Foot.SLDPRT"
 ASM = LEG / "Leg_Pitch.SLDASM"
 WEB_X = AX + WEB_R0 + WEB_T            # 33.5: lever web outer face (joint frame)
-SOLE_T, FOOT_HY, FOOT_HZ = 8.0, 26.0, 40.0
+# v2 (2026-11-07): hips at +-25 -> foot 44 wide (6 mm between the feet), no steel weight (it sits on the
+# longest lever of the swing leg and overloads the stance hip roll)
+SOLE_T, FOOT_HY, FOOT_HZ = 8.0, (22.0 if RV.V2 else 26.0), 40.0
 # steel weight insert (ТЗ: weighted feet): plate 60 x 40 x 3 glued in a pocket from below
 W_HZ, W_HY, W_T = 30.0, 20.0, 3.0
 
@@ -47,11 +54,16 @@ async def part_foot() -> None:
         await t("create_extrusion", {"sketch_name": sk, "depth": SOLE_T, "reverse_direction": True}, why="sole (rev)", n=60)
         lo, hi = bj.box()
     assert abs(lo[0] - WEB_X) < 0.01 and abs(hi[0] - WEB_X - SOLE_T) < 0.01, (lo, hi)
-    await cut(p0, [d for y, z in LINK_YZ for d in bj.circle(z, y, 0.8)], 5.0, 4 * 3.1416 * 0.64 * 5 * 0.9,
-              "4 x pilot D1.6 x5 for the M2 screws from the ankle lever")
+    if RV.V2:
+        await RV.xboss(WEB_X, [d for y, z in LINK_YZ for d in bj.circle(z, y, RV.LINK_D / 2)], RV.PEG_L, -1,
+                       "4 press pegs D3 into the ankle lever web (no screws)")
+    else:
+        await cut(p0, [d for y, z in LINK_YZ for d in bj.circle(z, y, 0.8)], 5.0, 4 * 3.1416 * 0.64 * 5 * 0.9,
+                  "4 x pilot D1.6 x5 for the M2 screws from the ankle lever")
     p1 = await xplane(WEB_X + SOLE_T, "X_SOLE")
-    await cut(p1, rect(-W_HZ - 0.2, -W_HY - 0.2, W_HZ + 0.2, W_HY + 0.2), W_T + 0.2,
-              (2 * W_HZ + 0.4) * (2 * W_HY + 0.4) * (W_T + 0.2), "pocket for the steel weight 60 x 40 x 3 (+0.2)")
+    if not RV.V2:
+        await cut(p1, rect(-W_HZ - 0.2, -W_HY - 0.2, W_HZ + 0.2, W_HY + 0.2), W_T + 0.2,
+                  (2 * W_HZ + 0.4) * (2 * W_HY + 0.4) * (W_T + 0.2), "pocket for the steel weight 60 x 40 x 3 (+0.2)")
     await t("add_chamfer", {"distance": 1.0, "edge_names": [f"{(WEB_X + SOLE_T) / 1000},{FOOT_HY / 1000},0",
                                                            f"{(WEB_X + SOLE_T) / 1000},{-FOOT_HY / 1000},0"]},
             why="sole edge chamfers 1 mm", n=60)
@@ -64,7 +76,7 @@ async def assembly() -> None:
     for i in range(3):
         r = await t("insert_component", {"file_path": str(bj.ASM), "x": i * LINK_DX}, why=f"joint {i + 1}", n=80)
         names.append(r["component"]["name"])
-    r = await t("insert_component", {"file_path": str(FOOT), "x": 2 * LINK_DX}, why="foot on the ankle lever", n=80)
+    r = await t("insert_component", {"file_path": str(FOOT), "x": FOOT_X}, why="foot on the last lever", n=80)
     names.append(r["component"]["name"])
     await t("add_mate", {"entity1": names[0], "mate_type": "fix"}, why="hip pitch joint = reference")
     # Hip roll H1: same unit turned 90 deg about x (its axis = leg z, fore-aft); its lever web
@@ -81,9 +93,23 @@ async def assembly() -> None:
     hb = [round(v * 1000, 1) for v in c.GetBox(False, False)]
     print(f"    {h1} box {hb}")
     # turned: x stays -77.5..-22, the joint's 18 mm width now along leg y, its height along z
-    assert abs(hb[0] + 77.5) < 0.2 and abs(hb[3] + 22.0) < 0.2 and abs(hb[1] + 9) < 0.2 and abs(hb[4] - 9) < 0.2, hb
+    assert (abs(hb[0] - (-LINK_DX + RV.X_MIN)) < 0.2 and abs(hb[3] - (-LINK_DX + WEB_X)) < 0.2
+            and abs(hb[1] + RV.HZ) < 0.2 and abs(hb[4] - RV.HZ) < 0.2), hb
     planes: dict[float, str] = {}
-    for comp, dx in zip(names[1:], (LINK_DX, 2 * LINK_DX, 2 * LINK_DX)):
+    if ANKLE_ROLL:   # ankle roll: same turned unit as H1, its housing pegs into the ankle pitch lever web
+        r = await t("insert_component", {"file_path": str(bj.ASM), "x": 3 * LINK_DX}, why="ankle roll joint AR", n=80)
+        ar = r["component"]["name"]
+        r = await t("create_reference_plane", {"base_plane": "Right", "offset": 3 * LINK_DX, "name": "LEG_X_AR"},
+                    why="AR plane", n=60)
+        for ref, pl, al in ((r["plane"]["name"], "Right", "aligned"), (f"{names[0]}/Front Plane", "Top", "closest"),
+                            (f"{names[0]}/Top Plane", "Front", "closest")):
+            await t("add_mate", {"entity1": ref, "entity2": f"{ar}/{pl} Plane", "mate_type": "coincident", "align": al,
+                                 "keep_position": False}, why=f"AR {pl} -> {ref.split('/')[-1]}", n=80)
+        ab = [round(v * 1000, 1) for v in bj.top_component(ar).GetBox(False, False)]
+        print(f"    {ar} box {ab}")
+        assert (abs(ab[0] - (3 * LINK_DX + RV.X_MIN)) < 0.2 and abs(ab[3] - (3 * LINK_DX + WEB_X)) < 0.2
+                and abs(ab[1] + RV.HZ) < 0.2 and abs(ab[4] - RV.HZ) < 0.2), ab
+    for comp, dx in zip(names[1:], (LINK_DX, 2 * LINK_DX, FOOT_X)):
         if dx not in planes:
             r = await t("create_reference_plane", {"base_plane": "Right", "offset": dx, "name": f"LEG_X{dx:g}".replace(".", "_")},
                         why=f"leg plane x={dx}", n=60)

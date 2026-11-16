@@ -1,0 +1,3334 @@
+[
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Torso.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "base",
+  "label": "torso",
+  "name": "X3_Torso-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Standoff.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   -94.5,
+   -29.0,
+   12.6
+  ],
+  "link": "base",
+  "label": "board standoff 1",
+  "name": "X3_Standoff-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Standoff.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   -94.5,
+   29.0,
+   12.6
+  ],
+  "link": "base",
+  "label": "board standoff 2",
+  "name": "X3_Standoff-2"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Standoff.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   -55.5,
+   -29.0,
+   12.6
+  ],
+  "link": "base",
+  "label": "board standoff 3",
+  "name": "X3_Standoff-3"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Standoff.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   -55.5,
+   29.0,
+   12.6
+  ],
+  "link": "base",
+  "label": "board standoff 4",
+  "name": "X3_Standoff-4"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Battery.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "base",
+  "label": "battery 2x18650 (mock-up)",
+  "name": "X3_Battery-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Board.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "base",
+  "label": "controller board (mock-up)",
+  "name": "X3_Board-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Yoke_L.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "L:yaw",
+  "label": "L yoke",
+  "name": "X3_Yoke_L-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Block_L.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "L:hipblock",
+  "label": "L hip block",
+  "name": "X3_Block_L-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Thigh.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "L:thigh",
+  "label": "L thigh",
+  "name": "X3_Thigh-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Shank_L.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "L:shank",
+  "label": "L shank",
+  "name": "X3_Shank_L-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Block_R.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   92.0,
+   0,
+   0
+  ],
+  "link": "L:ankle",
+  "label": "L ankle block (= R block turned 180 about z)",
+  "name": "X3_Block_R-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Foot_L.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "L:foot",
+  "label": "L foot",
+  "name": "X3_Foot_L-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pod_L.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "base",
+  "label": "L shoulder pod",
+  "name": "X3_Pod_L-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Shoulder_L.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "L:shoulder",
+  "label": "L shoulder",
+  "name": "X3_Shoulder_L-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_UpperArm_L.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "L:upperarm",
+  "label": "L upper arm",
+  "name": "X3_UpperArm_L-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Forearm_L.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "L:forearm",
+  "label": "L forearm",
+  "name": "X3_Forearm_L-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Fist.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "L:forearm",
+  "label": "L fist",
+  "name": "X3_Fist-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Yoke_R.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "R:yaw",
+  "label": "R yoke",
+  "name": "X3_Yoke_R-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Block_R.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "R:hipblock",
+  "label": "R hip block",
+  "name": "X3_Block_R-2"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Thigh.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "R:thigh",
+  "label": "R thigh",
+  "name": "X3_Thigh-2"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Shank_R.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "R:shank",
+  "label": "R shank",
+  "name": "X3_Shank_R-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Block_L.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   92.0,
+   0,
+   0
+  ],
+  "link": "R:ankle",
+  "label": "R ankle block (= L block turned 180 about z)",
+  "name": "X3_Block_L-2"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Foot_R.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "R:foot",
+  "label": "R foot",
+  "name": "X3_Foot_R-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pod_R.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "base",
+  "label": "R shoulder pod",
+  "name": "X3_Pod_R-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Shoulder_R.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "R:shoulder",
+  "label": "R shoulder",
+  "name": "X3_Shoulder_R-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_UpperArm_R.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "R:upperarm",
+  "label": "R upper arm",
+  "name": "X3_UpperArm_R-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Forearm_R.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   0,
+   0
+  ],
+  "link": "R:forearm",
+  "label": "R forearm",
+  "name": "X3_Forearm_R-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Fist.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "origin": [
+   0,
+   -136.0,
+   0
+  ],
+  "link": "R:forearm",
+  "label": "R fist",
+  "name": "X3_Fist-2"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -56.3,
+   24.0,
+   -5.5
+  ],
+  "link": "base",
+  "label": "L_hip_yaw MG90S",
+  "name": "MG90S_grabcad-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -56.3,
+   24.0,
+   -5.5
+  ],
+  "link": "base",
+  "label": "L_hip_yaw lid",
+  "name": "X3_Lid-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -75.0,
+   24.0,
+   0.0
+  ],
+  "link": "L:yaw",
+  "label": "L_hip_yaw pin",
+  "name": "X3_Pin-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -56.3,
+   24.0,
+   0.0
+  ],
+  "link": "L:yaw",
+  "label": "L_hip_yaw horn",
+  "name": "X3_Horn-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -56.3,
+   24.0,
+   0.0
+  ],
+  "link": "L:yaw",
+  "label": "L_hip_yaw cap",
+  "name": "X3_Cap-1"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -56.3,
+   -24.0,
+   -5.5
+  ],
+  "link": "base",
+  "label": "R_hip_yaw MG90S",
+  "name": "MG90S_grabcad-2"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -56.3,
+   -24.0,
+   -5.5
+  ],
+  "link": "base",
+  "label": "R_hip_yaw lid",
+  "name": "X3_Lid-2"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -75.0,
+   -24.0,
+   0.0
+  ],
+  "link": "R:yaw",
+  "label": "R_hip_yaw pin",
+  "name": "X3_Pin-2"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -56.3,
+   -24.0,
+   0.0
+  ],
+  "link": "R:yaw",
+  "label": "R_hip_yaw horn",
+  "name": "X3_Horn-2"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -56.3,
+   -24.0,
+   0.0
+  ],
+  "link": "R:yaw",
+  "label": "R_hip_yaw cap",
+  "name": "X3_Cap-2"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -16.2,
+   24.0,
+   -7.3
+  ],
+  "link": "L:hipblock",
+  "label": "L_hip_roll MG90S",
+  "name": "MG90S_grabcad-3"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -16.2,
+   24.0,
+   -7.3
+  ],
+  "link": "L:hipblock",
+  "label": "L_hip_roll lid",
+  "name": "X3_Lid-3"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -16.2,
+   18.5,
+   -26.000000000000004
+  ],
+  "link": "L:yaw",
+  "label": "L_hip_roll pin",
+  "name": "X3_Pin-3"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   -16.2,
+   18.5,
+   -7.3
+  ],
+  "link": "L:yaw",
+  "label": "L_hip_roll horn",
+  "name": "X3_Horn-3"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   -16.2,
+   18.5,
+   -7.3
+  ],
+  "link": "L:yaw",
+  "label": "L_hip_roll cap",
+  "name": "X3_Cap-3"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -16.2,
+   -24.0,
+   -7.3
+  ],
+  "link": "R:hipblock",
+  "label": "R_hip_roll MG90S",
+  "name": "MG90S_grabcad-4"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -16.2,
+   -24.0,
+   -7.3
+  ],
+  "link": "R:hipblock",
+  "label": "R_hip_roll lid",
+  "name": "X3_Lid-4"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -16.2,
+   -18.5,
+   -26.000000000000004
+  ],
+  "link": "R:yaw",
+  "label": "R_hip_roll pin",
+  "name": "X3_Pin-4"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   -16.2,
+   -18.5,
+   -7.3
+  ],
+  "link": "R:yaw",
+  "label": "R_hip_roll horn",
+  "name": "X3_Horn-4"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   -16.2,
+   -18.5,
+   -7.3
+  ],
+  "link": "R:yaw",
+  "label": "R_hip_roll cap",
+  "name": "X3_Cap-4"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   0.0,
+   22.2,
+   -5.5
+  ],
+  "link": "L:hipblock",
+  "label": "L_hip_pitch MG90S",
+  "name": "MG90S_grabcad-5"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   0.0,
+   22.2,
+   -5.5
+  ],
+  "link": "L:hipblock",
+  "label": "L_hip_pitch lid",
+  "name": "X3_Lid-5"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   0.0,
+   3.4999999999999964,
+   0.0
+  ],
+  "link": "L:thigh",
+  "label": "L_hip_pitch pin",
+  "name": "X3_Pin-5"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   0.0,
+   22.2,
+   0.0
+  ],
+  "link": "L:thigh",
+  "label": "L_hip_pitch horn",
+  "name": "X3_Horn-5"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   0.0,
+   22.2,
+   0.0
+  ],
+  "link": "L:thigh",
+  "label": "L_hip_pitch cap",
+  "name": "X3_Cap-5"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   0.0,
+   -22.2,
+   -5.5
+  ],
+  "link": "R:hipblock",
+  "label": "R_hip_pitch MG90S",
+  "name": "MG90S_grabcad-6"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   0.0,
+   -22.2,
+   -5.5
+  ],
+  "link": "R:hipblock",
+  "label": "R_hip_pitch lid",
+  "name": "X3_Lid-6"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   0.0,
+   -3.4999999999999964,
+   0.0
+  ],
+  "link": "R:thigh",
+  "label": "R_hip_pitch pin",
+  "name": "X3_Pin-6"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   0.0,
+   -22.2,
+   0.0
+  ],
+  "link": "R:thigh",
+  "label": "R_hip_pitch horn",
+  "name": "X3_Horn-6"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   0.0,
+   -22.2,
+   0.0
+  ],
+  "link": "R:thigh",
+  "label": "R_hip_pitch cap",
+  "name": "X3_Cap-6"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   51.5,
+   22.2,
+   0.0
+  ],
+  "link": "L:shank",
+  "label": "L_knee MG90S",
+  "name": "MG90S_grabcad-7"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   51.5,
+   22.2,
+   0.0
+  ],
+  "link": "L:shank",
+  "label": "L_knee lid",
+  "name": "X3_Lid-7"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   46.0,
+   3.4999999999999964,
+   0.0
+  ],
+  "link": "L:thigh",
+  "label": "L_knee pin",
+  "name": "X3_Pin-7"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   46.0,
+   22.2,
+   0.0
+  ],
+  "link": "L:thigh",
+  "label": "L_knee horn",
+  "name": "X3_Horn-7"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   46.0,
+   22.2,
+   0.0
+  ],
+  "link": "L:thigh",
+  "label": "L_knee cap",
+  "name": "X3_Cap-7"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   51.5,
+   -22.2,
+   0.0
+  ],
+  "link": "R:shank",
+  "label": "R_knee MG90S",
+  "name": "MG90S_grabcad-8"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   51.5,
+   -22.2,
+   0.0
+  ],
+  "link": "R:shank",
+  "label": "R_knee lid",
+  "name": "X3_Lid-8"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   46.0,
+   -3.4999999999999964,
+   0.0
+  ],
+  "link": "R:thigh",
+  "label": "R_knee pin",
+  "name": "X3_Pin-8"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   46.0,
+   -22.2,
+   0.0
+  ],
+  "link": "R:thigh",
+  "label": "R_knee horn",
+  "name": "X3_Horn-8"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   46.0,
+   -22.2,
+   0.0
+  ],
+  "link": "R:thigh",
+  "label": "R_knee cap",
+  "name": "X3_Cap-8"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   92.0,
+   22.2,
+   -5.5
+  ],
+  "link": "L:ankle",
+  "label": "L_ankle_pitch MG90S",
+  "name": "MG90S_grabcad-9"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   92.0,
+   22.2,
+   -5.5
+  ],
+  "link": "L:ankle",
+  "label": "L_ankle_pitch lid",
+  "name": "X3_Lid-9"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   92.0,
+   3.4999999999999964,
+   0.0
+  ],
+  "link": "L:shank",
+  "label": "L_ankle_pitch pin",
+  "name": "X3_Pin-9"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   92.0,
+   22.2,
+   0.0
+  ],
+  "link": "L:shank",
+  "label": "L_ankle_pitch horn",
+  "name": "X3_Horn-9"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   92.0,
+   22.2,
+   0.0
+  ],
+  "link": "L:shank",
+  "label": "L_ankle_pitch cap",
+  "name": "X3_Cap-9"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   92.0,
+   -22.2,
+   -5.5
+  ],
+  "link": "R:ankle",
+  "label": "R_ankle_pitch MG90S",
+  "name": "MG90S_grabcad-10"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   92.0,
+   -22.2,
+   -5.5
+  ],
+  "link": "R:ankle",
+  "label": "R_ankle_pitch lid",
+  "name": "X3_Lid-10"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   92.0,
+   -3.4999999999999964,
+   0.0
+  ],
+  "link": "R:shank",
+  "label": "R_ankle_pitch pin",
+  "name": "X3_Pin-10"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   92.0,
+   -22.2,
+   0.0
+  ],
+  "link": "R:shank",
+  "label": "R_ankle_pitch horn",
+  "name": "X3_Horn-10"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   92.0,
+   -22.2,
+   0.0
+  ],
+  "link": "R:shank",
+  "label": "R_ankle_pitch cap",
+  "name": "X3_Cap-10"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   108.2,
+   24.0,
+   -7.3
+  ],
+  "link": "L:ankle",
+  "label": "L_ankle_roll MG90S",
+  "name": "MG90S_grabcad-11"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   108.2,
+   24.0,
+   -7.3
+  ],
+  "link": "L:ankle",
+  "label": "L_ankle_roll lid",
+  "name": "X3_Lid-11"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   108.2,
+   18.5,
+   -26.000000000000004
+  ],
+  "link": "L:foot",
+  "label": "L_ankle_roll pin",
+  "name": "X3_Pin-11"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   108.2,
+   18.5,
+   -7.3
+  ],
+  "link": "L:foot",
+  "label": "L_ankle_roll horn",
+  "name": "X3_Horn-11"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   108.2,
+   18.5,
+   -7.3
+  ],
+  "link": "L:foot",
+  "label": "L_ankle_roll cap",
+  "name": "X3_Cap-11"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   108.2,
+   -24.0,
+   -7.3
+  ],
+  "link": "R:ankle",
+  "label": "R_ankle_roll MG90S",
+  "name": "MG90S_grabcad-12"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   108.2,
+   -24.0,
+   -7.3
+  ],
+  "link": "R:ankle",
+  "label": "R_ankle_roll lid",
+  "name": "X3_Lid-12"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   108.2,
+   -18.5,
+   -26.000000000000004
+  ],
+  "link": "R:foot",
+  "label": "R_ankle_roll pin",
+  "name": "X3_Pin-12"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   108.2,
+   -18.5,
+   -7.3
+  ],
+  "link": "R:foot",
+  "label": "R_ankle_roll horn",
+  "name": "X3_Horn-12"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   108.2,
+   -18.5,
+   -7.3
+  ],
+  "link": "R:foot",
+  "label": "R_ankle_roll cap",
+  "name": "X3_Cap-12"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -85.0,
+   61.2,
+   -5.5
+  ],
+  "link": "base",
+  "label": "L_shoulder MG90S",
+  "name": "MG90S_grabcad-13"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -85.0,
+   61.2,
+   -5.5
+  ],
+  "link": "base",
+  "label": "L_shoulder lid",
+  "name": "X3_Lid-13"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -85.0,
+   42.5,
+   0.0
+  ],
+  "link": "L:shoulder",
+  "label": "L_shoulder pin",
+  "name": "X3_Pin-13"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   -85.0,
+   61.2,
+   0.0
+  ],
+  "link": "L:shoulder",
+  "label": "L_shoulder horn",
+  "name": "X3_Horn-13"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   -85.0,
+   61.2,
+   0.0
+  ],
+  "link": "L:shoulder",
+  "label": "L_shoulder cap",
+  "name": "X3_Cap-13"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   -85.0,
+   -61.2,
+   -5.5
+  ],
+  "link": "base",
+  "label": "R_shoulder MG90S",
+  "name": "MG90S_grabcad-14"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   -85.0,
+   -61.2,
+   -5.5
+  ],
+  "link": "base",
+  "label": "R_shoulder lid",
+  "name": "X3_Lid-14"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    1.0,
+    0.0,
+    -0.0
+   ]
+  ],
+  "origin": [
+   -85.0,
+   -42.5,
+   0.0
+  ],
+  "link": "R:shoulder",
+  "label": "R_shoulder pin",
+  "name": "X3_Pin-14"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   -85.0,
+   -61.2,
+   0.0
+  ],
+  "link": "R:shoulder",
+  "label": "R_shoulder horn",
+  "name": "X3_Horn-14"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   -85.0,
+   -61.2,
+   0.0
+  ],
+  "link": "R:shoulder",
+  "label": "R_shoulder cap",
+  "name": "X3_Cap-14"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -59.4,
+   59.0,
+   1.3499999999999996
+  ],
+  "link": "L:shoulder",
+  "label": "L_abduction MG90S",
+  "name": "MG90S_grabcad-15"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -59.4,
+   59.0,
+   1.3499999999999996
+  ],
+  "link": "L:shoulder",
+  "label": "L_abduction lid",
+  "name": "X3_Lid-15"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -59.4,
+   64.5,
+   -17.35
+  ],
+  "link": "L:upperarm",
+  "label": "L_abduction pin",
+  "name": "X3_Pin-15"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -59.4,
+   64.5,
+   1.3499999999999996
+  ],
+  "link": "L:upperarm",
+  "label": "L_abduction horn",
+  "name": "X3_Horn-15"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -59.4,
+   64.5,
+   1.3499999999999996
+  ],
+  "link": "L:upperarm",
+  "label": "L_abduction cap",
+  "name": "X3_Cap-15"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -59.4,
+   -59.0,
+   1.3499999999999996
+  ],
+  "link": "R:shoulder",
+  "label": "R_abduction MG90S",
+  "name": "MG90S_grabcad-16"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -59.4,
+   -59.0,
+   1.3499999999999996
+  ],
+  "link": "R:shoulder",
+  "label": "R_abduction lid",
+  "name": "X3_Lid-16"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -59.4,
+   -64.5,
+   -17.35
+  ],
+  "link": "R:upperarm",
+  "label": "R_abduction pin",
+  "name": "X3_Pin-16"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -59.4,
+   -64.5,
+   1.3499999999999996
+  ],
+  "link": "R:upperarm",
+  "label": "R_abduction horn",
+  "name": "X3_Horn-16"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  ],
+  "origin": [
+   -59.4,
+   -64.5,
+   1.3499999999999996
+  ],
+  "link": "R:upperarm",
+  "label": "R_abduction cap",
+  "name": "X3_Cap-16"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   -24.7,
+   65.85,
+   0.0
+  ],
+  "link": "L:upperarm",
+  "label": "L_elbow MG90S",
+  "name": "MG90S_grabcad-17"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   -24.7,
+   65.85,
+   0.0
+  ],
+  "link": "L:upperarm",
+  "label": "L_elbow lid",
+  "name": "X3_Lid-17"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   -19.2,
+   47.14999999999999,
+   0.0
+  ],
+  "link": "L:forearm",
+  "label": "L_elbow pin",
+  "name": "X3_Pin-17"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   -19.2,
+   65.85,
+   0.0
+  ],
+  "link": "L:forearm",
+  "label": "L_elbow horn",
+  "name": "X3_Horn-17"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "origin": [
+   -19.2,
+   65.85,
+   0.0
+  ],
+  "link": "L:forearm",
+  "label": "L_elbow cap",
+  "name": "X3_Cap-17"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\purchased\\MG90S_grabcad.SLDPRT",
+  "axes": [
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   -24.7,
+   -65.85,
+   0.0
+  ],
+  "link": "R:upperarm",
+  "label": "R_elbow MG90S",
+  "name": "MG90S_grabcad-18"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Lid.SLDPRT",
+  "axes": [
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   -24.7,
+   -65.85,
+   0.0
+  ],
+  "link": "R:upperarm",
+  "label": "R_elbow lid",
+  "name": "X3_Lid-18"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Pin.SLDPRT",
+  "axes": [
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   -19.2,
+   -47.14999999999999,
+   0.0
+  ],
+  "link": "R:forearm",
+  "label": "R_elbow pin",
+  "name": "X3_Pin-18"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Horn.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   -19.2,
+   -65.85,
+   0.0
+  ],
+  "link": "R:forearm",
+  "label": "R_elbow horn",
+  "name": "X3_Horn-18"
+ },
+ {
+  "file": "D:\\AI prodject\\robo-boxer\\cad\\v3\\parts\\X3_Cap.SLDPRT",
+  "axes": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  ],
+  "origin": [
+   -19.2,
+   -65.85,
+   0.0
+  ],
+  "link": "R:forearm",
+  "label": "R_elbow cap",
+  "name": "X3_Cap-18"
+ }
+]

@@ -1,0 +1,4 @@
+# 13.11 вечер, серия 2 (всё в SolidWorks Motion)
+punch_step --v6 --tag _v1
+kick2 --v6 --tag _v1
+getup_back --v6 --lie back --tag _v1

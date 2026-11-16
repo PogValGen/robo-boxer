@@ -1,0 +1,4 @@
+# Серия 13.11: динамическая походка — скорость и направления (эталон dyn_6v_d31: +85,3 мм, hiproll p95 97%)
+dyn --v6 --tag _d46 --param tss=0.5 --param tds=0.15 --param S=30
+dyn --v6 --tag _d58 --param tss=0.4 --param tds=0.12 --param S=30
+dyn --v6 --tag _d31back --param tss=0.6 --param tds=0.2 --param S=25 --param direction=-1

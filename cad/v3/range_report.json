@@ -1,0 +1,167 @@
+{
+ "hip_pitch +30": {},
+ "hip_pitch +60": {
+  "X3_Block_L-1 x X3_Thigh-1": 278.77,
+  "X3_Lid-5 x X3_Thigh-1": 185.53,
+  "MG90S_grabcad-5 x X3_Thigh-1": 7.04
+ },
+ "hip_pitch -30": {},
+ "hip_pitch -60": {},
+ "hip_pitch -90": {},
+ "hip_pitch -125": {
+  "X3_Lid-3 x X3_Thigh-1": 131.87,
+  "X3_Cap-3 x X3_Thigh-1": 37.74,
+  "X3_Thigh-1 x X3_Yoke_L-1": 30.38,
+  "X3_Horn-3 x X3_Thigh-1": 12.51,
+  "MG90S_grabcad-3 x X3_Thigh-1": 0.18
+ },
+ "knee +30": {},
+ "knee +60": {},
+ "knee +90": {},
+ "knee +125": {
+  "X3_Block_L-1 x X3_Block_R-1": 185.98,
+  "X3_Lid-5 x X3_Lid-9": 109.34,
+  "MG90S_grabcad-5 x MG90S_grabcad-9": 3.56,
+  "MG90S_grabcad-5 x X3_Lid-9": 1.37,
+  "MG90S_grabcad-9 x X3_Lid-5": 1.37
+ },
+ "knee -30": {},
+ "knee -60": {},
+ "knee -90": {},
+ "knee -125": {
+  "X3_Shank_L-1 x X3_Thigh-1": 14.56
+ },
+ "ankle_pitch +20": {},
+ "ankle_pitch +45": {},
+ "ankle_pitch +70": {
+  "X3_Block_R-1 x X3_Shank_L-1": 284.23,
+  "X3_Lid-9 x X3_Shank_L-1": 169.28,
+  "MG90S_grabcad-9 x X3_Shank_L-1": 15.97
+ },
+ "ankle_pitch -20": {},
+ "ankle_pitch -45": {},
+ "ankle_pitch -70": {},
+ "ankle_roll +10": {},
+ "ankle_roll +20": {
+  "X3_Block_R-1 x X3_Foot_L-1": 54.17,
+  "X3_Foot_L-1 x X3_Lid-11": 36.51
+ },
+ "ankle_roll -10": {},
+ "ankle_roll -20": {},
+ "ankle_roll -30": {},
+ "shoulder +45": {
+  "X3_Pod_L-1 x X3_Shoulder_L-1": 234.32,
+  "X3_Shoulder_L-1 x X3_Torso-1": 208.85,
+  "X3_Lid-13 x X3_Shoulder_L-1": 91.93,
+  "MG90S_grabcad-15 x X3_Pod_L-1": 48.44,
+  "MG90S_grabcad-13 x X3_Shoulder_L-1": 11.09,
+  "MG90S_grabcad-15 x X3_Lid-13": 7.07
+ },
+ "shoulder -45": {},
+ "shoulder -90": {},
+ "shoulder -135": {},
+ "shoulder -180": {},
+ "abduction +30": {},
+ "abduction +60": {},
+ "abduction +80": {
+  "X3_Shoulder_L-1 x X3_UpperArm_L-1": 2.03
+ },
+ "abduction -30": {
+  "X3_Fist-1 x X3_Shank_L-1": 1892.17,
+  "MG90S_grabcad-5 x X3_Forearm_L-1": 1585.61,
+  "MG90S_grabcad-7 x X3_Fist-1": 1517.06,
+  "X3_Fist-1 x X3_Thigh-1": 36.28,
+  "MG90S_grabcad-3 x X3_Forearm_L-1": 857.69,
+  "X3_Forearm_L-1 x X3_Lid-5": 650.97,
+  "X3_Forearm_L-1 x X3_Thigh-1": 3.68,
+  "X3_Lid-3 x X3_UpperArm_L-1": 329.46,
+  "X3_Block_L-1 x X3_Fist-1": 259.26,
+  "MG90S_grabcad-3 x X3_UpperArm_L-1": 2.51,
+  "X3_Block_L-1 x X3_UpperArm_L-1": 231.13,
+  "X3_Fist-1 x X3_Lid-7": 171.38,
+  "X3_Forearm_L-1 x X3_Lid-3": 47.94,
+  "MG90S_grabcad-17 x X3_Lid-3": 115.18,
+  "X3_Block_L-1 x X3_Forearm_L-1": 24.11,
+  "MG90S_grabcad-17 x X3_Block_L-1": 63.7,
+  "X3_Forearm_L-1 x X3_Horn-5": 50.86,
+  "MG90S_grabcad-5 x X3_Fist-1": 41.65,
+  "X3_Pin-17 x X3_Yoke_L-1": 28.47,
+  "MG90S_grabcad-17 x MG90S_grabcad-3": 10.42,
+  "X3_Fist-1 x X3_Thigh-2": 4.14,
+  "X3_Forearm_L-1 x X3_Yoke_L-1": 2.15,
+  "X3_Forearm_L-1 x X3_Lid-1": 1.11
+ },
+ "elbow +45": {},
+ "elbow +90": {},
+ "elbow +130": {
+  "X3_Forearm_L-1 x X3_UpperArm_L-1": 26.99,
+  "X3_Forearm_L-1 x X3_Lid-17": 27.58
+ },
+ "elbow -45": {},
+ "elbow -90": {},
+ "elbow -130": {
+  "X3_Forearm_L-1 x X3_UpperArm_L-1": 40.92,
+  "X3_Cap-15 x X3_Fist-1": 72.12,
+  "X3_Cap-15 x X3_Forearm_L-1": 33.21,
+  "X3_Forearm_L-1 x X3_Lid-17": 27.58,
+  "X3_Fist-1 x X3_UpperArm_L-1": 22.14,
+  "X3_Forearm_L-1 x X3_Horn-15": 10.27,
+  "X3_Fist-1 x X3_Horn-15": 5.95
+ },
+ "hip_yaw +5": {},
+ "hip_yaw +10": {
+  "X3_Foot_L-1 x X3_Foot_R-1": 128.48
+ },
+ "hip_yaw -5": {},
+ "hip_yaw -10": {
+  "X3_Foot_L-1 x X3_Foot_R-1": 44.98
+ },
+ "hip_roll +3": {},
+ "hip_roll +6": {},
+ "hip_roll +10": {},
+ "hip_roll +15": {},
+ "hip_roll +20": {},
+ "hip_roll +27": {},
+ "hip_roll +35": {
+  "X3_Block_L-1 x X3_Yoke_L-1": 7.0,
+  "X3_Lid-3 x X3_Yoke_L-1": 4.72,
+  "X3_Cap-1 x X3_Lid-3": 0.73,
+  "X3_Block_L-1 x X3_Cap-1": 0.01
+ },
+ "hip_roll -3": {
+  "X3_Foot_L-1 x X3_Foot_R-1": 572.94,
+  "X3_Pin-10 x X3_Pin-9": 45.94
+ },
+ "hip_pitch +45": {
+  "X3_Block_L-1 x X3_Thigh-1": 37.53,
+  "X3_Lid-5 x X3_Thigh-1": 25.42
+ },
+ "hip_pitch -45": {},
+ "hip_pitch -100": {},
+ "hip_pitch -110": {
+  "X3_Thigh-1 x X3_Yoke_L-1": 22.79
+ },
+ "knee +100": {},
+ "knee +110": {},
+ "knee -100": {},
+ "knee -110": {},
+ "ankle_pitch +55": {},
+ "ankle_pitch -55": {},
+ "ankle_roll +12": {},
+ "ankle_roll +15": {},
+ "ankle_roll -12": {},
+ "ankle_roll -15": {},
+ "shoulder +15": {
+  "X3_Shoulder_L-1 x X3_Torso-1": 0.83
+ },
+ "shoulder -15": {},
+ "shoulder -30": {},
+ "abduction +70": {},
+ "abduction +75": {},
+ "elbow +110": {},
+ "elbow +120": {},
+ "elbow -110": {},
+ "elbow -120": {
+  "X3_Forearm_L-1 x X3_UpperArm_L-1": 1.76
+ }
+}

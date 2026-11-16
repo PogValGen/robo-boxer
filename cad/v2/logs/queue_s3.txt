@@ -1,0 +1,4 @@
+# 13.11 вечер, серия 3 (SolidWorks Motion)
+kick2 --v6 --tag _v1
+getup_chest2 --v6 --lie chest --tag _v2
+getup_back --v6 --lie back --tag _v1

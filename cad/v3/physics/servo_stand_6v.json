@@ -1,0 +1,533 @@
+{
+ "assembly": "D:\\AI prodject\\robo-boxer\\cad\\v3\\physics\\Robot_Servo.SLDASM",
+ "study": "Servo_stand_6v",
+ "save": false,
+ "duration": 2.0,
+ "fps": 200,
+ "sample_dt": 0.01,
+ "gravity": {
+  "axis": "Y",
+  "reverse": true
+ },
+ "solver": {
+  "max_step": 0.001,
+  "precise_contact": true
+ },
+ "servos": [
+  {
+   "name": "S_legA_hipyaw",
+   "face": {
+    "component": "X3_Pin-1",
+    "point": [
+     0.024,
+     0.07269999999999999,
+     0.003
+    ]
+   },
+   "relative": "X3_Torso-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": -1,
+   "inertia_kgm2": 3.4621826192779155e-05
+  },
+  {
+   "name": "S_legB_hipyaw",
+   "face": {
+    "component": "X3_Pin-2",
+    "point": [
+     -0.024,
+     0.07269999999999999,
+     0.003
+    ]
+   },
+   "relative": "X3_Torso-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 3.4621826192779155e-05
+  },
+  {
+   "name": "S_legA_hiproll",
+   "face": {
+    "component": "X3_Block_L-1",
+    "point": [
+     0.015349999999999999,
+     0.0162,
+     -0.0212
+    ]
+   },
+   "relative": "X3_Yoke_L-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0008026373900813503
+  },
+  {
+   "name": "S_legB_hiproll",
+   "face": {
+    "component": "X3_Block_R-2",
+    "point": [
+     -0.015349999999999999,
+     0.0162,
+     -0.0212
+    ]
+   },
+   "relative": "X3_Yoke_R-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": -1,
+   "inertia_kgm2": 0.0008026373900813503
+  },
+  {
+   "name": "S_legA_hippitch",
+   "face": {
+    "component": "X3_Pin-5",
+    "point": [
+     0.0058000000000000005,
+     0.0,
+     0.003
+    ]
+   },
+   "relative": "X3_Block_L-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": -1,
+   "inertia_kgm2": 0.0005799770337528808
+  },
+  {
+   "name": "S_legB_hippitch",
+   "face": {
+    "component": "X3_Pin-6",
+    "point": [
+     -0.0058000000000000005,
+     0.0,
+     0.003
+    ]
+   },
+   "relative": "X3_Block_R-2",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0005799770337528808
+  },
+  {
+   "name": "S_legA_knee",
+   "face": {
+    "component": "X3_Shank_L-1",
+    "point": [
+     0.008299999999999998,
+     -0.04285,
+     0.0
+    ]
+   },
+   "relative": "X3_Thigh-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.00017688983879414867
+  },
+  {
+   "name": "S_legB_knee",
+   "face": {
+    "component": "X3_Shank_R-1",
+    "point": [
+     -0.008299999999999998,
+     -0.04285,
+     0.0
+    ]
+   },
+   "relative": "X3_Thigh-2",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.00017688983879414867
+  },
+  {
+   "name": "S_legA_ankle",
+   "face": {
+    "component": "X3_Block_R-1",
+    "point": [
+     0.008299999999999998,
+     -0.092,
+     0.0031500000000000005
+    ]
+   },
+   "relative": "X3_Shank_L-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": -1,
+   "inertia_kgm2": 2.548128512595137e-05
+  },
+  {
+   "name": "S_legB_ankle",
+   "face": {
+    "component": "X3_Block_L-2",
+    "point": [
+     -0.008299999999999998,
+     -0.092,
+     0.0031500000000000005
+    ]
+   },
+   "relative": "X3_Shank_R-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": -1,
+   "inertia_kgm2": 2.548128512595137e-05
+  },
+  {
+   "name": "S_legA_ankleroll",
+   "face": {
+    "component": "X3_Pin-11",
+    "point": [
+     0.0155,
+     -0.1082,
+     -0.0237
+    ]
+   },
+   "relative": "X3_Block_R-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": -1,
+   "inertia_kgm2": 3.6868604123574985e-06
+  },
+  {
+   "name": "S_legB_ankleroll",
+   "face": {
+    "component": "X3_Pin-12",
+    "point": [
+     -0.0155,
+     -0.1082,
+     -0.0237
+    ]
+   },
+   "relative": "X3_Block_L-2",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 3.6868604123574985e-06
+  },
+  {
+   "name": "S_armA_shoulder",
+   "face": {
+    "component": "X3_Pin-13",
+    "point": [
+     0.044800000000000006,
+     0.085,
+     0.003
+    ]
+   },
+   "relative": "X3_Torso-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.3,
+     0
+    ],
+    [
+     1.1,
+     -60.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": -1,
+   "inertia_kgm2": 0.00047280141044308817
+  },
+  {
+   "name": "S_armB_shoulder",
+   "face": {
+    "component": "X3_Pin-14",
+    "point": [
+     -0.044800000000000006,
+     0.085,
+     0.003
+    ]
+   },
+   "relative": "X3_Torso-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.3,
+     0
+    ],
+    [
+     1.1,
+     -60.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.00047280141044308817
+  },
+  {
+   "name": "S_armA_shoulderroll",
+   "face": {
+    "component": "X3_Pin-15",
+    "point": [
+     0.0675,
+     0.0594,
+     -0.01505
+    ]
+   },
+   "relative": "X3_Shoulder_L-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": -1,
+   "inertia_kgm2": 0.00026771159685238686
+  },
+  {
+   "name": "S_armB_shoulderroll",
+   "face": {
+    "component": "X3_Pin-16",
+    "point": [
+     -0.0675,
+     0.0594,
+     -0.01505
+    ]
+   },
+   "relative": "X3_Shoulder_R-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.00026771159685238686
+  },
+  {
+   "name": "S_armA_elbow",
+   "face": {
+    "component": "X3_Pin-17",
+    "point": [
+     0.049449999999999994,
+     0.0162,
+     0.0
+    ]
+   },
+   "relative": "X3_UpperArm_L-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": -1,
+   "inertia_kgm2": 8.511273273944759e-05
+  },
+  {
+   "name": "S_armB_elbow",
+   "face": {
+    "component": "X3_Pin-18",
+    "point": [
+     -0.049449999999999994,
+     0.0162,
+     0.0
+    ]
+   },
+   "relative": "X3_UpperArm_R-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   "stall_nm": 0.21574630000000003,
+   "no_load_dps": 750.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 8.511273273944759e-05
+  }
+ ],
+ "sample_components": [
+  "Floor-1",
+  "X3_Block_L-1",
+  "X3_Block_L-2",
+  "X3_Block_R-1",
+  "X3_Block_R-2",
+  "X3_Foot_L-1",
+  "X3_Foot_R-1",
+  "X3_Forearm_L-1",
+  "X3_Forearm_R-1",
+  "X3_Shank_L-1",
+  "X3_Shank_R-1",
+  "X3_Shoulder_L-1",
+  "X3_Shoulder_R-1",
+  "X3_Thigh-1",
+  "X3_Thigh-2",
+  "X3_Torso-1",
+  "X3_UpperArm_L-1",
+  "X3_UpperArm_R-1",
+  "X3_Yoke_L-1",
+  "X3_Yoke_R-1"
+ ],
+ "insert": [
+  {
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\v3\\physics\\Floor.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    -0.1255,
+    0.0,
+    1,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "unfix": [
+  "X3_Torso-1"
+ ],
+ "fix": [
+  "Floor-1"
+ ],
+ "contacts": [
+  {
+   "name": "C_feet_floor",
+   "components": [
+    "X3_Foot_L-1",
+    "X3_Foot_R-1",
+    "Floor-1"
+   ],
+   "stiffness": 10000000.0,
+   "exponent": 1.5,
+   "damping": 2000,
+   "penetration": 0.0001,
+   "mu_s": 0.5,
+   "mu_d": 0.4
+  }
+ ]
+}

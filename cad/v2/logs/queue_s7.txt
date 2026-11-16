@@ -1,0 +1,3 @@
+# серия 7: удар ногой, медленнее выброс
+kick2 --v6 --tag _v4 --param t_k=0.3 --param comp=0.7
+kick2 --v6 --tag _v5 --param t_k=0.3 --param comp=0.7 --param hip_k=-65

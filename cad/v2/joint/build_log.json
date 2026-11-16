@@ -1,0 +1,566 @@
+[
+ {
+  "tool": "create_part",
+  "status": "success",
+  "why": "shoulder yoke: on the torso shelf, carries both S1 housings",
+  "s": 1.33
+ },
+ {
+  "tool": "create_reference_plane",
+  "status": "success",
+  "why": "Right -132.7",
+  "s": 1.52
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yoke_184_x",
+  "s": 0.68
+ },
+ {
+  "tool": "add_rectangle",
+  "status": "success",
+  "why": "add_rectangle",
+  "s": 0.24
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.2
+ },
+ {
+  "tool": "create_extrusion",
+  "status": "success",
+  "why": "yoke 184 x 52 x 6",
+  "s": 0.18
+ },
+ {
+  "tool": "create_reference_plane",
+  "status": "success",
+  "why": "Right -132.7",
+  "s": 1.69
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.65
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.05
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.16
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y+84 z-4",
+  "s": 1.95
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.21
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.07
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.17
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y+84 z+4",
+  "s": 0.91
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.23
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.1
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.16
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y+92 z-4",
+  "s": 2.65
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.15
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.1
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.17
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y+92 z+4",
+  "s": 1.39
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.19
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.06
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.17
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y-92 z-4",
+  "s": 2.8
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.17
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.09
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.18
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y-92 z+4",
+  "s": 2.45
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.14
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.1
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.18
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y-84 z-4",
+  "s": 2.67
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.15
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.1
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.19
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y-84 z+4",
+  "s": 2.24
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.24
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.1
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.19
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y-30 z-15",
+  "s": 2.12
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.23
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.1
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.19
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y-30 z+15",
+  "s": 3.3
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.14
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.1
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.19
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y+30 z-15",
+  "s": 2.81
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_yk_holes",
+  "s": 0.19
+ },
+ {
+  "tool": "add_circle",
+  "status": "success",
+  "why": "add_circle",
+  "s": 0.1
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.19
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "hole D3 at y+30 z+15",
+  "s": 1.24
+ },
+ {
+  "tool": "create_reference_plane",
+  "status": "success",
+  "why": "Right -132.7",
+  "s": 2.99
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_winp1",
+  "s": 0.18
+ },
+ {
+  "tool": "add_rectangle",
+  "status": "success",
+  "why": "add_rectangle",
+  "s": 0.35
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.21
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "window y+52",
+  "s": 1.66
+ },
+ {
+  "tool": "create_reference_plane",
+  "status": "success",
+  "why": "Right -132.7",
+  "s": 3.16
+ },
+ {
+  "tool": "create_sketch",
+  "status": "success",
+  "why": "sketch on P_winm1",
+  "s": 0.23
+ },
+ {
+  "tool": "add_rectangle",
+  "status": "success",
+  "why": "add_rectangle",
+  "s": 0.33
+ },
+ {
+  "tool": "exit_sketch",
+  "status": "success",
+  "why": "",
+  "s": 0.22
+ },
+ {
+  "tool": "create_cut_extrude",
+  "status": "success",
+  "why": "window y-52",
+  "s": 1.94
+ },
+ {
+  "tool": "set_material",
+  "status": "success",
+  "why": "ABS",
+  "s": 0.28
+ },
+ {
+  "tool": "save_as",
+  "status": "success",
+  "why": "save",
+  "s": 0.55
+ },
+ {
+  "tool": "export_stl",
+  "status": "success",
+  "why": "STL for printing",
+  "s": 0.19
+ },
+ {
+  "tool": "export_image",
+  "status": "success",
+  "why": "screenshot",
+  "s": 0.89
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.21
+ },
+ {
+  "tool": "create_assembly",
+  "status": "success",
+  "why": "robot: lower body + yoke + 2 arms",
+  "s": 1.7
+ },
+ {
+  "tool": "insert_component",
+  "status": "success",
+  "why": "lower body",
+  "s": 3.18
+ },
+ {
+  "tool": "add_mate",
+  "status": "success",
+  "why": "lower body = reference",
+  "s": 0.06
+ },
+ {
+  "tool": "insert_component",
+  "status": "success",
+  "why": "shoulder yoke",
+  "s": 2.42
+ },
+ {
+  "tool": "add_mate",
+  "status": "success",
+  "why": "Shoulder_Yoke-1 Right",
+  "s": 0.78
+ },
+ {
+  "tool": "add_mate",
+  "status": "success",
+  "why": "Shoulder_Yoke-1 Top",
+  "s": 0.75
+ },
+ {
+  "tool": "add_mate",
+  "status": "success",
+  "why": "Shoulder_Yoke-1 Front",
+  "s": 0.74
+ },
+ {
+  "tool": "insert_component",
+  "status": "success",
+  "why": "right arm",
+  "s": 2.79
+ },
+ {
+  "tool": "create_reference_plane",
+  "status": "success",
+  "why": "Right -105.4",
+  "s": 1.29
+ },
+ {
+  "tool": "add_mate",
+  "status": "success",
+  "why": "Arm-1 Right",
+  "s": 1.0
+ },
+ {
+  "tool": "create_reference_plane",
+  "status": "success",
+  "why": "Top +88",
+  "s": 1.41
+ },
+ {
+  "tool": "add_mate",
+  "status": "success",
+  "why": "Arm-1 Top",
+  "s": 0.99
+ },
+ {
+  "tool": "add_mate",
+  "status": "success",
+  "why": "Arm-1 Front",
+  "s": 0.88
+ },
+ {
+  "tool": "insert_component",
+  "status": "success",
+  "why": "left arm",
+  "s": 0.21
+ },
+ {
+  "tool": "add_mate",
+  "status": "success",
+  "why": "Arm-2 Right",
+  "s": 1.21
+ },
+ {
+  "tool": "create_reference_plane",
+  "status": "success",
+  "why": "Top -88",
+  "s": 1.43
+ },
+ {
+  "tool": "add_mate",
+  "status": "success",
+  "why": "Arm-2 Top",
+  "s": 1.17
+ },
+ {
+  "tool": "add_mate",
+  "status": "success",
+  "why": "Arm-2 Front",
+  "s": 1.04
+ },
+ {
+  "tool": "save_as",
+  "status": "success",
+  "why": "save robot",
+  "s": 0.75
+ },
+ {
+  "tool": "export_image",
+  "status": "success",
+  "why": "robot isometric",
+  "s": 0.86
+ },
+ {
+  "tool": "export_image",
+  "status": "success",
+  "why": "robot front",
+  "s": 0.91
+ },
+ {
+  "tool": "export_image",
+  "status": "success",
+  "why": "robot right",
+  "s": 0.89
+ },
+ {
+  "tool": "check_interference",
+  "status": "success",
+  "why": "robot interference (servo tab contacts only)",
+  "s": 2.52
+ },
+ {
+  "tool": "close_model",
+  "status": "success",
+  "why": "close",
+  "s": 0.25
+ }
+]

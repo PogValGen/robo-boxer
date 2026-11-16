@@ -1,0 +1,582 @@
+{
+ "assembly": "D:\\AI prodject\\robo-boxer\\cad\\v2\\physics\\Robot_Servo.SLDASM",
+ "study": "Servo_calib",
+ "save": false,
+ "duration": 0.6,
+ "fps": 200,
+ "sample_dt": 0.01,
+ "gravity": {
+  "axis": "Y",
+  "reverse": true
+ },
+ "solver": {
+  "max_step": 0.001,
+  "precise_contact": true
+ },
+ "servos": [
+  {
+   "name": "S_armB_shoulder",
+   "face": {
+    "component": "J2_LeverTop-2",
+    "point": [
+     -0.06505,
+     0.09689999999999999,
+     0.0
+    ]
+   },
+   "relative": "Torso_Mount-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.00048446535888962495
+  },
+  {
+   "name": "S_armB_shoulderroll",
+   "face": {
+    "component": "J2_LeverTop-3",
+    "point": [
+     -0.088,
+     0.05159999999999999,
+     -0.022949999999999998
+    ]
+   },
+   "relative": "J2_LeverTop-2",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0001580513224385606
+  },
+  {
+   "name": "S_armB_elbow",
+   "face": {
+    "component": "J2_LeverTop-1",
+    "point": [
+     -0.06505,
+     0.006299999999999994,
+     0.0
+    ]
+   },
+   "relative": "J2_LeverTop-3",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 2.5132440670184885e-05
+  },
+  {
+   "name": "S_legA_hiproll",
+   "face": {
+    "component": "J2_LeverTop-5",
+    "point": [
+     0.028,
+     0.08789999999999999,
+     -0.022949999999999998
+    ]
+   },
+   "relative": "Pelvis-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0018949908245127615
+  },
+  {
+   "name": "S_legA_hippitch",
+   "face": {
+    "component": "J2_LeverTop-7",
+    "point": [
+     0.05095,
+     0.04259999999999999,
+     0.0
+    ]
+   },
+   "relative": "J2_LeverTop-5",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0009784131022474501
+  },
+  {
+   "name": "S_legA_knee",
+   "face": {
+    "component": "J2_LeverTop-4",
+    "point": [
+     0.05095,
+     -0.0027,
+     0.0
+    ]
+   },
+   "relative": "J2_LeverTop-7",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0004168447824482301
+  },
+  {
+   "name": "S_legA_ankle",
+   "face": {
+    "component": "J2_LeverTop-6",
+    "point": [
+     0.05095,
+     -0.04800000000000001,
+     0.0
+    ]
+   },
+   "relative": "J2_LeverTop-4",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.00012865630434016597
+  },
+  {
+   "name": "S_legA_ankleroll",
+   "face": {
+    "component": "J2_LeverTop-8",
+    "point": [
+     0.028,
+     -0.09329999999999997,
+     -0.022949999999999998
+    ]
+   },
+   "relative": "J2_LeverTop-6",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 1.3227922914790344e-05
+  },
+  {
+   "name": "S_legB_hiproll",
+   "face": {
+    "component": "J2_LeverTop-10",
+    "point": [
+     -0.028,
+     0.08789999999999999,
+     -0.022949999999999998
+    ]
+   },
+   "relative": "Pelvis-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0018949908245127615
+  },
+  {
+   "name": "S_legB_hippitch",
+   "face": {
+    "component": "J2_LeverTop-12",
+    "point": [
+     -0.005050000000000001,
+     0.04259999999999999,
+     0.0
+    ]
+   },
+   "relative": "J2_LeverTop-10",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0009784131022474501
+  },
+  {
+   "name": "S_legB_knee",
+   "face": {
+    "component": "J2_LeverTop-9",
+    "point": [
+     -0.005050000000000001,
+     -0.0027,
+     0.0
+    ]
+   },
+   "relative": "J2_LeverTop-12",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0004168447824482301
+  },
+  {
+   "name": "S_legB_ankle",
+   "face": {
+    "component": "J2_LeverTop-11",
+    "point": [
+     -0.005050000000000001,
+     -0.04800000000000001,
+     0.0
+    ]
+   },
+   "relative": "J2_LeverTop-9",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.00012865630434016597
+  },
+  {
+   "name": "S_legB_ankleroll",
+   "face": {
+    "component": "J2_LeverTop-13",
+    "point": [
+     -0.028,
+     -0.09329999999999997,
+     -0.022949999999999998
+    ]
+   },
+   "relative": "J2_LeverTop-11",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 1.3227922914790344e-05
+  },
+  {
+   "name": "S_torso",
+   "face": {
+    "component": "J2_LeverTop-14",
+    "point": [
+     0.0,
+     0.11655,
+     0.003
+    ]
+   },
+   "relative": "Pelvis-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0014993633215332042
+  },
+  {
+   "name": "S_armA_shoulder",
+   "face": {
+    "component": "J2_LeverTop-16",
+    "point": [
+     0.11095000000000001,
+     0.09689999999999999,
+     0.0
+    ]
+   },
+   "relative": "Torso_Mount-1",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.00048446535888962495
+  },
+  {
+   "name": "S_armA_shoulderroll",
+   "face": {
+    "component": "J2_LeverTop-17",
+    "point": [
+     0.088,
+     0.05159999999999999,
+     -0.022949999999999998
+    ]
+   },
+   "relative": "J2_LeverTop-16",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 0.0001580513224385606
+  },
+  {
+   "name": "S_armA_elbow",
+   "face": {
+    "component": "J2_LeverTop-15",
+    "point": [
+     0.11095000000000001,
+     0.006299999999999994,
+     0.0
+    ]
+   },
+   "relative": "J2_LeverTop-17",
+   "cmd": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     0
+    ],
+    [
+     0.4,
+     15.0
+    ]
+   ],
+   "stall_nm": 0.1765197,
+   "no_load_dps": 600.0,
+   "deadband_deg": 0.09,
+   "limit_deg": 90.0,
+   "sign": 1,
+   "inertia_kgm2": 2.5132440670184885e-05
+  }
+ ],
+ "sample_components": [
+  "J2_LeverTop-1",
+  "J2_LeverTop-10",
+  "J2_LeverTop-11",
+  "J2_LeverTop-12",
+  "J2_LeverTop-13",
+  "J2_LeverTop-15",
+  "J2_LeverTop-16",
+  "J2_LeverTop-17",
+  "J2_LeverTop-2",
+  "J2_LeverTop-3",
+  "J2_LeverTop-4",
+  "J2_LeverTop-5",
+  "J2_LeverTop-6",
+  "J2_LeverTop-7",
+  "J2_LeverTop-8",
+  "J2_LeverTop-9",
+  "Pelvis-1",
+  "Torso_Mount-1"
+ ]
+}

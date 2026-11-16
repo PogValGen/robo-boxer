@@ -1,0 +1,5 @@
+| time | label | status | fwd | side | tilt | fell | worst_p95 | worst_p99 | solver_s | params |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 11-13 01:05 | dyn_6v_d46 | ok | 101.2 | -1.0 | 0.8 | False | legA_hiproll 95% | 135% | 163 | {"tss": 0.5, "tds": 0.15, "S": 30.0} |
+| 11-13 01:15 | dyn_6v_d58 | ok | 98.1 | -4.7 | 0.9 | False | legB_hiproll 105% | 180% | 142 | {"tss": 0.4, "tds": 0.12, "S": 30.0} |
+| 11-13 01:25 | dyn_6v_d31back | ok | -57.5 | 30.7 | 3.8 | False | legA_hiproll 105% | 162% | 175 | {"tss": 0.6, "tds": 0.2, "S": 25.0, "direction": -1.0} |

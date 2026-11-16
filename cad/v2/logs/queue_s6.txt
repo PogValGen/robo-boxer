@@ -1,0 +1,3 @@
+# серия 6: подъёмы через скобу назад
+getup_back2 --v6 --lie back --tag _v2
+getup_chest3 --v6 --lie chest --tag _v3

@@ -1,0 +1,2443 @@
+{
+ "parts": [
+  {
+   "name": "Arm-2/Joint_MG90S-2/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -0.11600000000000002,
+    0.0736,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_shoulderroll"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-2/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -0.11600000000000002,
+    0.0736,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_shoulder"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-2/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -0.11600000000000002,
+    0.0736,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_shoulder"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-2/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -0.11600000000000002,
+    0.0736,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_shoulder"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-2/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -0.11600000000000002,
+    0.0736,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_shoulderroll"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-1/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.1291,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_shoulder"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-1/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.1291,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "torso"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-1/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.1291,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "torso"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-1/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.1291,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "torso"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-1/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.1291,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_shoulder"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-3/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_elbow"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-3/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_shoulderroll"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-3/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_shoulderroll"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-3/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_shoulderroll"
+  },
+  {
+   "name": "Arm-2/Joint_MG90S-3/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_elbow"
+  },
+  {
+   "name": "Arm-2/Fist_TPU-1",
+   "stem": "Fist_TPU",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\arm\\Fist_TPU.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.11600000000000002,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armB_elbow"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-2/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.11599999999999999,
+    0.0736,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_shoulderroll"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-2/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.11599999999999999,
+    0.0736,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_shoulder"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-2/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.11599999999999999,
+    0.0736,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_shoulder"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-2/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.11599999999999999,
+    0.0736,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_shoulder"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-2/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.11599999999999999,
+    0.0736,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_shoulderroll"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-1/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.1291,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_shoulder"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-1/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.1291,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "torso"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-1/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.1291,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "torso"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-1/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.1291,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "torso"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-1/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.1291,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_shoulder"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-3/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_elbow"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-3/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_shoulderroll"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-3/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_shoulderroll"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-3/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_shoulderroll"
+  },
+  {
+   "name": "Arm-1/Joint_MG90S-3/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_elbow"
+  },
+  {
+   "name": "Arm-1/Fist_TPU-1",
+   "stem": "Fist_TPU",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\arm\\Fist_TPU.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.11599999999999999,
+    0.01809999999999999,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "armA_elbow"
+  },
+  {
+   "name": "Robot_Lower-1/Joint_MG90S-1/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    1.3877787807814457e-17,
+    0.1138,
+    -0.0055,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "torso"
+  },
+  {
+   "name": "Robot_Lower-1/Joint_MG90S-1/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    1.3877787807814457e-17,
+    0.1138,
+    -0.0055,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "base"
+  },
+  {
+   "name": "Robot_Lower-1/Joint_MG90S-1/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    1.3877787807814457e-17,
+    0.1138,
+    -0.0055,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "base"
+  },
+  {
+   "name": "Robot_Lower-1/Joint_MG90S-1/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    1.3877787807814457e-17,
+    0.1138,
+    -0.0055,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "base"
+  },
+  {
+   "name": "Robot_Lower-1/Joint_MG90S-1/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    1.3877787807814457e-17,
+    0.1138,
+    -0.0055,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "torso"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-1/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_hippitch"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-1/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_hiproll"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-1/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_hiproll"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-1/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_hiproll"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-1/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_hippitch"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-3/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.111,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_ankle"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-3/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.111,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_knee"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-3/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.111,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_knee"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-3/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.111,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_knee"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-3/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.111,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_ankle"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-2/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.055499999999999994,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_knee"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-2/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.055499999999999994,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_hippitch"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-2/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.055499999999999994,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_hippitch"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-2/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.055499999999999994,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_hippitch"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-2/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.055499999999999994,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_knee"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Leg_Foot-1",
+   "stem": "Leg_Foot",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\leg\\Leg_Foot.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    -0.05,
+    -0.11100000000000002,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_ankle"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-4/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -0.05,
+    0.0555,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_hiproll"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-4/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -0.05,
+    0.0555,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "base"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-4/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -0.05,
+    0.0555,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "base"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-4/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -0.05,
+    0.0555,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "base"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-2/Joint_MG90S-4/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -0.05,
+    0.0555,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legB_hiproll"
+  },
+  {
+   "name": "Robot_Lower-1/Torso_Mount-1",
+   "stem": "Torso_Mount",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\body\\Torso_Mount.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "torso"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-1/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_hippitch"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-1/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_hiproll"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-1/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_hiproll"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-1/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_hiproll"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-1/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_hippitch"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-3/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.111,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_ankle"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-3/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.111,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_knee"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-3/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.111,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_knee"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-3/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.111,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_knee"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-3/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.111,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_ankle"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-2/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.055499999999999994,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_knee"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-2/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.055499999999999994,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_hippitch"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-2/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.055499999999999994,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_hippitch"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-2/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.055499999999999994,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_hippitch"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-2/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.055499999999999994,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_knee"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Leg_Foot-1",
+   "stem": "Leg_Foot",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\leg\\Leg_Foot.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.05,
+    -0.11100000000000002,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_ankle"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-4/MG90S_Horn-1",
+   "stem": "MG90S_Horn",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\MG90S_Horn.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.05,
+    0.0555,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_hiproll"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-4/MG90S_grabcad-1",
+   "stem": "MG90S_grabcad",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\physics\\MG90S_phys.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.05,
+    0.0555,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "base"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-4/Joint_Housing-1",
+   "stem": "Joint_Housing",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Housing.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.05,
+    0.0555,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "base"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-4/Joint_Bridge-1",
+   "stem": "Joint_Bridge",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Bridge.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.05,
+    0.0555,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "base"
+  },
+  {
+   "name": "Robot_Lower-1/Leg_Pitch-1/Joint_MG90S-4/Joint_Lever-1",
+   "stem": "Joint_Lever",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\joint\\Joint_Lever.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.05,
+    0.0555,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "legA_hiproll"
+  },
+  {
+   "name": "Robot_Lower-1/Pelvis-1",
+   "stem": "Pelvis",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\body\\Pelvis.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "base"
+  },
+  {
+   "name": "Shoulder_Yoke-1",
+   "stem": "Shoulder_Yoke",
+   "path": "D:\\AI prodject\\robo-boxer\\cad\\body\\Shoulder_Yoke.SLDPRT",
+   "m": [
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "link": "torso"
+  }
+ ],
+ "anchors": {
+  "armB_shoulderroll": 4,
+  "armB_shoulder": 9,
+  "torso": 58,
+  "armB_elbow": 14,
+  "armA_shoulderroll": 20,
+  "armA_shoulder": 25,
+  "armA_elbow": 30,
+  "base": 80,
+  "legB_hippitch": 41,
+  "legB_hiproll": 57,
+  "legB_ankle": 46,
+  "legB_knee": 51,
+  "legA_hippitch": 63,
+  "legA_hiproll": 79,
+  "legA_ankle": 68,
+  "legA_knee": 73
+ },
+ "joints": [
+  {
+   "role": "armB_shoulder",
+   "kind": "shoulder",
+   "side": "B",
+   "rotor": "armB_shoulder",
+   "stator": "torso",
+   "lever": 9,
+   "housing": 7,
+   "bridge": 8,
+   "p_spigot": [
+    -0.08900000000000001,
+    0.1211,
+    0.0
+   ],
+   "p_cup": [
+    -0.08870000000000001,
+    0.1181,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pivot_m": [
+    -0.1,
+    0.12359999999999999,
+    0.0
+   ]
+  },
+  {
+   "role": "armB_shoulderroll",
+   "kind": "shoulderroll",
+   "side": "B",
+   "rotor": "armB_shoulderroll",
+   "stator": "armB_shoulder",
+   "lever": 4,
+   "housing": 2,
+   "bridge": 3,
+   "p_spigot": [
+    -0.11600000000000002,
+    0.06559999999999999,
+    -0.027
+   ],
+   "p_cup": [
+    -0.11600000000000002,
+    0.06259999999999999,
+    -0.0273
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "pivot_m": [
+    -0.116,
+    0.0681,
+    -0.016
+   ]
+  },
+  {
+   "role": "armB_elbow",
+   "kind": "elbow",
+   "side": "B",
+   "rotor": "armB_elbow",
+   "stator": "armB_shoulderroll",
+   "lever": 14,
+   "housing": 12,
+   "bridge": 13,
+   "p_spigot": [
+    -0.08900000000000001,
+    0.010099999999999991,
+    0.0
+   ],
+   "p_cup": [
+    -0.08870000000000001,
+    0.007099999999999991,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pivot_m": [
+    -0.1,
+    0.0126,
+    0.0
+   ]
+  },
+  {
+   "role": "armA_shoulder",
+   "kind": "shoulder",
+   "side": "A",
+   "rotor": "armA_shoulder",
+   "stator": "torso",
+   "lever": 25,
+   "housing": 23,
+   "bridge": 24,
+   "p_spigot": [
+    0.143,
+    0.1211,
+    0.0
+   ],
+   "p_cup": [
+    0.14329999999999998,
+    0.1181,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pivot_m": [
+    0.132,
+    0.12359999999999999,
+    0.0
+   ]
+  },
+  {
+   "role": "armA_shoulderroll",
+   "kind": "shoulderroll",
+   "side": "A",
+   "rotor": "armA_shoulderroll",
+   "stator": "armA_shoulder",
+   "lever": 20,
+   "housing": 18,
+   "bridge": 19,
+   "p_spigot": [
+    0.11599999999999999,
+    0.06559999999999999,
+    -0.027
+   ],
+   "p_cup": [
+    0.11599999999999999,
+    0.06259999999999999,
+    -0.0273
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "pivot_m": [
+    0.116,
+    0.0681,
+    -0.016
+   ]
+  },
+  {
+   "role": "armA_elbow",
+   "kind": "elbow",
+   "side": "A",
+   "rotor": "armA_elbow",
+   "stator": "armA_shoulderroll",
+   "lever": 30,
+   "housing": 28,
+   "bridge": 29,
+   "p_spigot": [
+    0.143,
+    0.010099999999999991,
+    0.0
+   ],
+   "p_cup": [
+    0.14329999999999998,
+    0.007099999999999991,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pivot_m": [
+    0.132,
+    0.0126,
+    0.0
+   ]
+  },
+  {
+   "role": "torso",
+   "kind": "waist",
+   "side": "A",
+   "rotor": "torso",
+   "stator": "base",
+   "lever": 36,
+   "housing": 34,
+   "bridge": 35,
+   "p_spigot": [
+    1.3877787807814457e-17,
+    0.1408,
+    0.0025
+   ],
+   "p_cup": [
+    1.3877787807814457e-17,
+    0.1411,
+    0.0055
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "pivot_m": [
+    0.0,
+    0.1298,
+    0.0
+   ]
+  },
+  {
+   "role": "legB_hiproll",
+   "kind": "hiproll",
+   "side": "B",
+   "rotor": "legB_hiproll",
+   "stator": "base",
+   "lever": 57,
+   "housing": 55,
+   "bridge": 56,
+   "p_spigot": [
+    -0.05,
+    0.0475,
+    -0.027
+   ],
+   "p_cup": [
+    -0.05,
+    0.0445,
+    -0.0273
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "pivot_m": [
+    -0.05,
+    0.05,
+    -0.016
+   ]
+  },
+  {
+   "role": "legB_hippitch",
+   "kind": "hippitch",
+   "side": "B",
+   "rotor": "legB_hippitch",
+   "stator": "legB_hiproll",
+   "lever": 41,
+   "housing": 39,
+   "bridge": 40,
+   "p_spigot": [
+    -0.023,
+    -0.008,
+    0.0
+   ],
+   "p_cup": [
+    -0.022699999999999998,
+    -0.011,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pivot_m": [
+    -0.034,
+    -0.0055,
+    0.0
+   ]
+  },
+  {
+   "role": "legB_knee",
+   "kind": "knee",
+   "side": "B",
+   "rotor": "legB_knee",
+   "stator": "legB_hippitch",
+   "lever": 51,
+   "housing": 49,
+   "bridge": 50,
+   "p_spigot": [
+    -0.023,
+    -0.06349999999999999,
+    0.0
+   ],
+   "p_cup": [
+    -0.022699999999999998,
+    -0.0665,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pivot_m": [
+    -0.034,
+    -0.061,
+    0.0
+   ]
+  },
+  {
+   "role": "legB_ankle",
+   "kind": "ankle",
+   "side": "B",
+   "rotor": "legB_ankle",
+   "stator": "legB_knee",
+   "lever": 46,
+   "housing": 44,
+   "bridge": 45,
+   "p_spigot": [
+    -0.023,
+    -0.119,
+    0.0
+   ],
+   "p_cup": [
+    -0.022699999999999998,
+    -0.122,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pivot_m": [
+    -0.034,
+    -0.1165,
+    0.0
+   ]
+  },
+  {
+   "role": "legA_hiproll",
+   "kind": "hiproll",
+   "side": "A",
+   "rotor": "legA_hiproll",
+   "stator": "base",
+   "lever": 79,
+   "housing": 77,
+   "bridge": 78,
+   "p_spigot": [
+    0.05,
+    0.0475,
+    -0.027
+   ],
+   "p_cup": [
+    0.05,
+    0.0445,
+    -0.0273
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "pivot_m": [
+    0.05,
+    0.05,
+    -0.016
+   ]
+  },
+  {
+   "role": "legA_hippitch",
+   "kind": "hippitch",
+   "side": "A",
+   "rotor": "legA_hippitch",
+   "stator": "legA_hiproll",
+   "lever": 63,
+   "housing": 61,
+   "bridge": 62,
+   "p_spigot": [
+    0.077,
+    -0.008,
+    0.0
+   ],
+   "p_cup": [
+    0.0773,
+    -0.011,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pivot_m": [
+    0.066,
+    -0.0055,
+    0.0
+   ]
+  },
+  {
+   "role": "legA_knee",
+   "kind": "knee",
+   "side": "A",
+   "rotor": "legA_knee",
+   "stator": "legA_hippitch",
+   "lever": 73,
+   "housing": 71,
+   "bridge": 72,
+   "p_spigot": [
+    0.077,
+    -0.06349999999999999,
+    0.0
+   ],
+   "p_cup": [
+    0.0773,
+    -0.0665,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pivot_m": [
+    0.066,
+    -0.061,
+    0.0
+   ]
+  },
+  {
+   "role": "legA_ankle",
+   "kind": "ankle",
+   "side": "A",
+   "rotor": "legA_ankle",
+   "stator": "legA_knee",
+   "lever": 68,
+   "housing": 66,
+   "bridge": 67,
+   "p_spigot": [
+    0.077,
+    -0.119,
+    0.0
+   ],
+   "p_cup": [
+    0.0773,
+    -0.122,
+    0.0
+   ],
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pivot_m": [
+    0.066,
+    -0.1165,
+    0.0
+   ]
+  }
+ ],
+ "fixed_link": "base"
+}

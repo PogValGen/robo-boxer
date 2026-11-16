@@ -1,0 +1,24 @@
+{
+ "ver": 2,
+ "x": {
+  "swap": true,
+  "su": -1,
+  "sv": 1,
+  "boss_off": 1,
+  "cut_off": 1
+ },
+ "y": {
+  "swap": true,
+  "su": 1,
+  "sv": -1,
+  "boss_off": 1,
+  "cut_off": 1
+ },
+ "z": {
+  "swap": false,
+  "su": 1,
+  "sv": 1,
+  "boss_off": 1,
+  "cut_off": 1
+ }
+}

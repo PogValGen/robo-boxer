@@ -1,6 +1,6 @@
 ﻿# Turntable video/GIF of a viewer page (make_viewer.py output) for the phone:
 # renders N frames with headless Edge (#turn=DEG), then ffmpeg -> MP4 + GIF.
-# Usage: .\make_turntable.ps1 -Html "D:\AI prodject\grok\projects\robo-boxer\docs\viewer\robot_3d.html" [-Frames 36] [-W 540] [-H 860]
+# Usage: .\make_turntable.ps1 -Html "D:\AI prodject\robo-boxer\docs\viewer\robot_3d.html" [-Frames 36] [-W 540] [-H 860]
 param(
     [Parameter(Mandatory = $true)][string]$Html,
     [int]$Frames = 36,

@@ -2,6 +2,10 @@
 cad/purchased/
 cad/legacy_robotone/
 cad/viewer_stl/
+cad/physics/MG90S_phys.SLDPRT
+cad/physics/~$*
+tools/physics/*.exe
+tools/physics/SolidWorks.Interop.*.dll
 **/Bearing_*.SLDPRT
 **/Pin_ISO2338_*.SLDPRT
 # viewer data that embeds the GrabCAD MG90S mesh (public data = docs/viewer/robot_3d_data.js, stand-ins)
@@ -15,3 +19,22 @@ docs/viewer/*_frames/
 ~$*
 *.tmp
 __pycache__/
+cad/physics/frames_*/
+cad/physics/*.bmp
+# generated (2026-11-17): render frames, physics assemblies rebuilt by servo_sim.py/build_physics, backups
+cad/**/frames/
+cad/**/frames_*/
+cad/**/*bloated*
+cad/**/*_bad_try*
+cad/**/_before_*/
+cad/physics/*.SLDASM
+cad/v2/physics/*.SLDASM
+cad/v3/physics/*.SLDASM
+cad/v2/physics/parts/
+cad/v3/physics/parts/
+**/MG90S*.SLDPRT
+**/MG90S*.STL
+cad/**/*_result.json
+cad/**/*.bmp
+cad/**/logs/*.log
+cad/**/logs/*.out

@@ -86,7 +86,9 @@ async def prism(axis, c0, c1, shapes, cut=False, why="", expect=None):
     pl = _plane(axis, c0)
     tool = None
     for s in shapes:
-        sol = extrude(pl * _sketch(s), amount=depth)
+        # dir explicit: build123d extrudes along the FACE normal, and a clockwise polygon has it reversed
+        # (2026-11-17: the torso shoulder rail went to -x; caught by the centroid check)
+        sol = extrude(pl * _sketch(s), amount=depth, dir=pl.z_dir)
         tool = sol if tool is None else tool + sol
     full = tool.volume
     part = _n["part"]
@@ -128,7 +130,8 @@ async def new_part(name):
     print(f"== {name}", flush=True)
 
 
-VIEWS = {"isometric": (1, 1, 1), "front": (0, 0, 1), "top": (-1, 0, 0), "right": (0, 1, 0), "back": (0, 0, -1)}
+# isometric from (-1, 1, 1): -x = robot UP, look from above-left-front
+VIEWS = {"isometric": (-1, 1, 1), "front": (0, 0, 1), "top": (-1, 0, 0), "right": (0, 1, 0), "back": (0, 0, -1)}
 
 
 def shot(stl_path, png_path, view="isometric"):

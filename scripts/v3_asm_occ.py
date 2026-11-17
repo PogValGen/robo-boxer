@@ -92,7 +92,10 @@ def run(angles=None, tag=""):
             v = vol(mans[i] ^ mans[j])
             if v > 1e-4:
                 pairs[tuple(sorted((names[i], names[j])))] = round(float(v), 3)
-    bad = A.real(pairs)
+    # MG90S x horn <= 4.7 mm3: the GrabCAD shaft ends at s 19.9, the MEASURED one at 19.65 (user 2026-11-15) and the
+    # horn is built to the measurement -> a 0.25 mm layer of the model shaft (pi * 2.425^2 * 0.25 = 4.6). Checked
+    # 2026-11-17: the overlap lies exactly in s 19.65..19.9. Not a defect of the robot.
+    bad = {k: v for k, v in A.real(pairs).items() if not ("MG90S" in k and "X3_Horn" in k and v <= 4.7)}
     rep = {"pose": angles or {}, "components": len(items), "pairs": {f"{a} x {b}": v for (a, b), v in pairs.items()},
            "unexpected": bad, "seconds": round(time.perf_counter() - t0, 1)}
     (V3 / f"interference{tag}.json").write_text(json.dumps(rep, indent=1), encoding="utf-8")
@@ -111,7 +114,7 @@ COLORS = {"MG90S": "#2a5db0", "X3_Lid": "#2a5db0", "X3_Horn": "#f0f0f0", "X3_Bat
 
 def shots(meshes, names, tag=""):
     import pyvista as pv
-    for view, d in (("isometric", (1, 1, 1)), ("front", (0, 0, 1)), ("right", (0, -1, 0)), ("back", (0, 0, -1))):
+    for view, d in (("isometric", (-1, 1, 1)), ("front", (0, 0, 1)), ("right", (0, -1, 0)), ("back", (0, 0, -1))):
         p = pv.Plotter(off_screen=True, window_size=(900, 1100))
         p.set_background("white")
         for n, m in zip(names, meshes):

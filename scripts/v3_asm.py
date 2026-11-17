@@ -21,12 +21,17 @@ import time
 
 import v3_parts as vp
 from v3_parts import Srv, AXL, S_B0, XR, YR, ZR0, YS, X_ANK
-from v3cad import PARTS, SHOTS, V3, base, call, mc, session
+import os
+if os.environ.get("V3CAD", "occ") == "sw":          # SolidWorks backend: only on explicit request since 2026-11-17
+    from v3cad import PARTS, SHOTS, V3, base, call, mc, session
+    MG90S = base.PROJ / "cad" / "purchased" / "MG90S_grabcad.SLDPRT"
+else:                                                # no SolidWorks: layout()/posed() are used by v3_asm_occ.py
+    from v3cad_occ import PARTS, SHOTS, V3, PROJ
+    MG90S = PROJ / "cad" / "purchased" / "MG90S_grabcad.STEP"
 
 ASM = V3 / "Robot3.SLDASM"
 MANIFEST = V3 / "Robot3_manifest.json"
 RANGE = V3 / "range_report.json"
-MG90S = base.PROJ / "cad" / "purchased" / "MG90S_grabcad.SLDPRT"
 IDENT = ((1, 0, 0), (0, 1, 0), (0, 0, 1))
 ROT_X180 = ((1, 0, 0), (0, -1, 0), (0, 0, -1))
 ROT_Z180 = ((-1, 0, 0), (0, -1, 0), (0, 0, 1))

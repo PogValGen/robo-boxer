@@ -12,7 +12,11 @@ import asyncio
 import json
 import sys
 
-from v3cad import R, C, G, prism, new_part, save, session, PARTS, V3
+import os
+if os.environ.get("V3CAD", "occ") == "sw":          # old SolidWorks backend (only on explicit request since 2026-11-17)
+    from v3cad import R, C, G, prism, new_part, save, session, PARTS, V3
+else:                                                # build123d / OpenCascade, no SolidWorks (cadenv python)
+    from v3cad_occ import R, C, G, prism, new_part, save, session, PARTS, V3
 
 # ----------------------------------------------------------------------------- servo block (servo frame l, s, t)
 BL, BT = 11.6, 6.5            # pocket half length / half thickness (user-fitted 23.2 x 13.0)

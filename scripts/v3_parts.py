@@ -639,12 +639,15 @@ async def part_board():
 
 
 async def part_horn():
-    """purchased single-arm horn of the MG90S (typical sizes accepted by the user, cad/mg90s_params.json /horn),
+    """purchased single-arm horn of the MG90S, MEASURED 2026-11-15 and TRIMMED by the user to HORN_CUT from the axis,
     in the horn frame: X = arm, Y = shaft axis (s), origin on the shaft axis at s = 0 - like X3_Cap"""
     await new_part("X3_Horn")
-    await prism("y", 16.4, 20.9, [C(0, 0, 3.5)], why="hub D7, s 16.4..20.9")
-    await prism("y", 19.3, 20.9, [R(-2.5, 0.0, 2.5, 15.0)], why="arm 5 wide to r 15, plate 1.6")
-    await prism("y", 16.4, 19.95, [C(0, 0, 2.45)], cut=True, why="spline hole D4.9 for the shaft")
+    s_hub = HORN_S1 - HORN_H                                                       # 16.95: cup 2.7 deep below the plate
+    await prism("y", s_hub, HORN_S1, [C(0, 0, 6.8 / 2)], why="hub D6.8, overall height 4.7")
+    e = HORN_CUT
+    arm = G([(-horn_hw(0.0), 0.0), (-horn_hw(e), e), (horn_hw(e), e), (horn_hw(0.0), 0.0)])          # (z, x): along +x
+    await prism("y", HORN_S0, HORN_S1, [arm], why="trimmed wedge arm to r 11.8, plate 2.0")
+    await prism("y", s_hub, HORN_S0, [C(0, 0, 2.45)], cut=True, why="spline cup D4.9, 2.7 deep")
     return await save(PARTS / "X3_Horn.SLDPRT", material="ABS", shots=("isometric",), stl=True)
 
 

@@ -38,6 +38,27 @@ PEG_L, PEG_D, PEG_HOLE, PEG_DEPTH = 13.75, 2.8, 3.0, 3.0      # OLD printed peg 
 FPIN_D = 1.75
 FPIN_LID_D, FPIN_LID_DEPTH = 1.85, 8.0       # press (vertical printed holes come out ~0.1 under: trial print decides)
 FPIN_BLK_D, FPIN_BLK_DEPTH = 2.0, 6.0        # free; s -0.85 .. 5.15, clear of the cable slot (s -12.1 .. -6.1)
+# + 4 CORNER filament pins per servo (user 2026-11-17: "два пина мало, делай 4 по углам, а для сервы оставь то что было"):
+# the 2 tab pins stay (they locate the servo), 4 more hold lid <-> block at the corners. The MG90S tabs are full width
+# (t +-6.12) up to the ends (l +-16.12), so a corner pin must sit OUTSIDE the tab: t 7.3 (0.3 + pin radius clear of the
+# tab). The 1.6 side wall cannot take a D2 hole there -> 4 corner lugs widen the block and the lid to t +-9.7 over
+# l 12.4..16.4 only. Same pin length: lid hole from the lid bottom (through the tab layer) 10.7 deep, block hole 6.0.
+# 17.11 v1 (lugs SIDEWAYS, t +-9.7): the 2 servos of the hip block sit back to back in t with no gap -> lid x lid
+# 157 mm3, lid x block 204 mm3. v2: pins BEYOND THE TAB ENDS (l +-17.4, 0.4 clear of the tab end 16.12), t +-4.6,
+# the lugs lengthen the block and the lid from l 16.4 to 19.6 (1.2 wall to the end), width unchanged.
+# v2 is worse: lid x yoke 222, lid x shank 456 mm3 + 0.05 mm walls. Neither layout fits every joint -> "off" (the
+# validated 16.11 design: 2 tab pins) until the user picks a way (fork reported 2026-11-17).
+CPIN_MODE = "off"
+if CPIN_MODE == "off":
+    CPIN_L = CPIN_T = None
+    LUG = ((0.0, 0.0), 0.0)
+elif CPIN_MODE == "t":
+    CPIN_L, CPIN_T = 14.2, 7.3
+    LUG = ((11.6, 16.4), 9.7)          # lug l range, half width t
+else:
+    CPIN_L, CPIN_T = 17.4, 4.6
+    LUG = ((16.4, 19.6), ET)
+LUG_L0, LUG_L1, LUG_T = LUG[0][0], LUG[0][1], LUG[1]
 FPIN_LEN = round(FPIN_LID_DEPTH + (S_TABTOP - S_RIM) + FPIN_BLK_DEPTH - 0.7, 1)   # 16.0: 0.7 short of the bottoms
 # Stock single-arm horn, MEASURED 2026-11-15 (user, caliper): overall 21.4, hub D6.8 (shaft side), tip D3.85,
 # plate 2.0 thick, height 4.7, spline cup 2.7 deep. Wedge angle from the photo on 5 mm grid paper (clean edge,
@@ -245,6 +266,8 @@ class Srv:
     # ---- features (P = Part; y mirror is applied by P)
     async def body(self, P, why="servo block body"):
         await P.box(*self.rng(-EL, EL, S_BOT, S_RIM, -ET, ET), why=why, ax=self.S[1])
+        for l0, l1 in (((LUG_L0, LUG_L1), (-LUG_L1, -LUG_L0)) if CPIN_L else ()):
+            await P.box(*self.rng(l0, l1, S_BOT, S_RIM, -LUG_T, LUG_T), why="corner pin lugs", ax=self.S[1])
 
     async def pocket(self, P, cable=True, sag=(0.0, 0.0)):
         """sag = extra clearance on the -t / +t wall: the one that is printed as a long bridge sags"""
@@ -257,14 +280,19 @@ class Srv:
             # (in the pocket) shares. The old D3 hole needed a keyway (0.65 sliver); D2 does not.
             await self.hole(P, l, S_RIM - FPIN_BLK_DEPTH, S_RIM, FPIN_BLK_D / 2, "filament pin hole D2.0 (free)",
                             min_wall=1.1)
+        for l in ((-CPIN_L, CPIN_L) if CPIN_L else ()):
+            for t in (-CPIN_T, CPIN_T):
+                # 1.2 to the block end, 1.4 to the lug side: same 3-perimeter exception as the tab pin holes
+                await self.hole(P, l, S_RIM - FPIN_BLK_DEPTH, S_RIM, FPIN_BLK_D / 2, "corner filament pin hole D2.0",
+                                min_wall=1.1, t=t)
         await self.hole(P, AXL, S_BOT, S_BOT + PIN_DEPTH, PIN_HOLE / 2, "pin hole D6.3 (plain bushing)")
         if cable:
             await P.box(*self.rng(BL, EL, S_FLOOR, S_FLOOR + 6.0, -2.2, 2.2), cut=True, why="cable slot (shaft end)",
                         ax=self.L[1])
 
-    async def hole(self, P, l, s0, s1, r, why, cut=True, min_wall=MIN_WALL):
+    async def hole(self, P, l, s0, s1, r, why, cut=True, min_wall=MIN_WALL, t=0.0):
         ax = self.S[1]
-        a, b = self.p(l, s0, 0), self.p(l, s1, 0)
+        a, b = self.p(l, s0, t), self.p(l, s1, t)
         i = AXES.index(ax)
         pq = [(1, 2), (2, 0), (0, 1)][i]
         await P.cyl(ax, a[i], b[i], a[pq[0]], a[pq[1]], r, cut=cut, why=why, min_wall=min_wall)
@@ -298,6 +326,9 @@ def cheek_shapes(c_axis_pt2, toward, length, horn=False, pin=False, disc=DISC, s
 async def part_lid():
     await new_part("X3_Lid")
     await prism("y", S_RIM, S_LID, [R(-ET, -EL, ET, EL)], why="lid block s 5.15..19.0")                 # (z, x) = (t, l)
+    if CPIN_L:
+        await prism("y", S_RIM, S_LID, [R(-LUG_T, LUG_L0, LUG_T, LUG_L1), R(-LUG_T, -LUG_L1, LUG_T, -LUG_L0)],
+                    why="corner pin lugs")
     await prism("y", S_RIM, S_TABTOP, [R(-BT, -EL, BT, EL)], cut=True, why="tab cavity (open ends)")
     await prism("y", S_TABTOP, S_CASE, [R(-BT, -BL - 0.1, BT, BL + 0.1)], cut=True, why="upper case cavity")
     await prism("y", S_CASE, S_LID, [C(0, AXL, 3.8)], cut=True, why="horn hub hole D7.6")
@@ -306,6 +337,12 @@ async def part_lid():
     await prism("y", S_TABTOP - 0.02, S_TABTOP + FPIN_LID_DEPTH,
                 [C(0, -PEG_L, FPIN_LID_D / 2), C(0, PEG_L, FPIN_LID_D / 2)], cut=True,
                 why=f"2 filament pin holes D{FPIN_LID_D} x {FPIN_LID_DEPTH} (press), pin D{FPIN_D} x {FPIN_LEN}")
+    # 4 corner pins: from the lid bottom through the tab layer, the same pin length as the tab pins
+    cdep = (S_TABTOP - S_RIM) + FPIN_LID_DEPTH
+    if CPIN_L:
+        await prism("y", S_RIM - 0.02, S_RIM + cdep,
+                [C(t, l, FPIN_LID_D / 2) for l in (-CPIN_L, CPIN_L) for t in (-CPIN_T, CPIN_T)], cut=True,
+                why=f"4 corner filament pin holes D{FPIN_LID_D} x {cdep:.1f} (press)")
     return await save(PARTS / "X3_Lid.SLDPRT", shots=("isometric",))
 
 

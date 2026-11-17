@@ -21,8 +21,9 @@ from pathlib import Path
 from build123d import (Plane, Pos, Rectangle, Circle, Polygon, extrude, export_step, export_stl, CenterOf)
 
 PROJ = Path(__file__).resolve().parents[1]
-# pilot output root (2026-11-17): cad/v3/occ so the SolidWorks set stays for comparison; V3CAD_ROOT overrides
-V3 = Path(os.environ.get("V3CAD_ROOT", PROJ / "cad" / "v3" / "occ"))
+# output root = cad/v3 (the same stl/ the user prints from). The pilot (2026-11-17) wrote to cad/v3/occ and matched the
+# SolidWorks set 28/28; since the corner pins (17.11) the .SLDPRT files are OUTDATED - STEP in parts/ is the source.
+V3 = Path(os.environ.get("V3CAD_ROOT", PROJ / "cad" / "v3"))
 PARTS, SHOTS, STL = V3 / "parts", V3 / "screens", V3 / "stl"
 for _d in (PARTS, SHOTS, STL):
     _d.mkdir(parents=True, exist_ok=True)
@@ -165,6 +166,9 @@ async def save(path, material="PLA", shots=("isometric",), stl=True):
     export_step(part, str(PARTS / f"{name}.step"))
     stl_path = STL / f"{name}.STL"
     export_stl(part, str(stl_path), tolerance=0.005, angular_tolerance=0.1)
+    # export_stl fails SILENTLY on a non-ASCII path (2026-11-17, scratchpad under C:\Users\Валерий): check the file
+    assert stl_path.exists() and stl_path.stat().st_mtime > _n["t0"] - 1 + time.time() - time.perf_counter(), \
+        f"STL not written: {stl_path}"
     if shots:
         for v in shots:
             shot(stl_path, SHOTS / f"{name}_{v}.png", v)
